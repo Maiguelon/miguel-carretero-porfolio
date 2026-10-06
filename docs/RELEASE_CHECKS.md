@@ -34,4 +34,16 @@ Reviewed the production build with the Codex browser, not only the development s
 
 ## Scope
 
-These checks cover the portfolio's current static pages and links. They do not constitute a formal WCAG certification or verification of the projects' underlying integrations. Live hosting, headers, canonical metadata and the actual missing-page response are checked in chunk 6.
+These checks cover the portfolio's current static pages and links. They do not constitute a formal WCAG certification or verification of the projects' underlying integrations.
+
+## Live publication
+
+- URL: https://miguel-carretero-portfolio.miguel-carretero.workers.dev
+- Hosting: Cloudflare Workers static assets; no application server code or runtime bindings.
+- Final version: `16897ef2-2c11-46ec-8b62-fce6c6e1f35a`.
+- `npm run check:live` passed: home and both cases return HTML/200 with the correct page titles, canonical origin, absolute social image and `nosniff` response header.
+- Public CV and social PNG return 200 with the expected content types.
+- Sitemap contains exactly the three published pages; robots references the same public sitemap.
+- An unknown route returns HTTP 404 with the designed error page and noindex metadata.
+- Browser verified the public home, loaded images, correct canonical, no horizontal overflow and zero client script elements.
+- Desktop proof is saved locally under ignored `work/portfolio-desktop.jpg`.

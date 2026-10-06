@@ -10,6 +10,7 @@
     "prebuild": "node scripts/prepare-assets.mjs",
     "build": "astro build",
     "preview": "astro preview --host 127.0.0.1",
+    "check:live": "node scripts/check-live.mjs",
     "verify": "npm run check && npm run build",
     "deploy": "npm run verify && wrangler deploy"
   },

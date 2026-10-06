@@ -27,7 +27,7 @@ Help potential employers and collaborators understand Miguel's experience, inspe
 | 4a | Gestor Aramis case | Problem, contribution, decisions, evidence and status are clear | Complete |
 | 4b | Editorial Cockpit case | Human review, development process and demo limitations are clear | Complete |
 | 5 | Visual and release review | Desktop/mobile/keyboard checks, metadata, links and production build pass | Complete |
-| 6 | Cloudflare publication | Published pages, assets, downloads and 404 checked against the live URL | Pending |
+| 6 | Cloudflare publication | Published pages, assets, downloads and 404 checked against the live URL | Complete |
 
 ## Content structure
 
@@ -51,6 +51,7 @@ Project content has a slug, title, summary, publication flag, project status, ro
 - Use fictional demo screenshots from Gestor. Use an inspected public demo or a clearly labelled explanatory diagram for Cockpit.
 - Contact uses direct email; a form service is unnecessary for the initial scope.
 - Publication will use Cloudflare static assets. Domain and authenticated hosting setup are release concerns.
+- Cloudflare's current Pages command delegated new-project creation to Workers. The first release uses a new static-assets Worker; the existing Gestor Pages project is unrelated. Existing login permissions were sufficient, and no new authorization was needed.
 
 ## Progress log
 
@@ -60,3 +61,4 @@ Project content has a slug, title, summary, publication flag, project status, ro
 - 2026-10-06 — Chunk 4a: Gestor narrative expanded with the operational problem, Miguel's contribution, 122-video decision, Drive/MOV integration, focused workflow, qualitative adoption evidence and current scope. Type/content checks and build passed; the browser confirmed all seven sections and valid table-of-contents targets.
 - 2026-10-06 — Chunk 4b: Cockpit case describes the initial GPT workflow, relational model, Excalidraw sketches, chunk-based development, human review boundary and agent responsibilities. Public stub demo and current adoption status are explicit. Type/content checks and build passed; browser confirmed six sections, valid index anchors and the expandable implementation explanation.
 - 2026-10-06 — Chunk 5: production build inspected on desktop and 320/390px mobile; keyboard skip/focus and case links checked. Added social preview and noindex error-page metadata; corrected screenshot dimensions. Validation evidence is recorded in RELEASE_CHECKS.md.
+- 2026-10-06 — Chunk 6: deployed static assets to https://miguel-carretero-portfolio.miguel-carretero.workers.dev. Final deployment version: 16897ef2-2c11-46ec-8b62-fce6c6e1f35a. Public origin, canonical/social metadata, robots, sitemap and response headers configured. The live check passed all page/asset/status checks, including the custom HTTP 404. Browser confirmed the public home, loaded images and zero client scripts. First-release scope is complete; photos, custom domain, Spanish and future project cases can follow.

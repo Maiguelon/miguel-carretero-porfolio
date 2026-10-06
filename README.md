@@ -2,6 +2,8 @@
 
 Personal portfolio focused on product decisions, operations and AI-assisted tools.
 
+**Live site:** https://miguel-carretero-portfolio.miguel-carretero.workers.dev
+
 The first release is in English and features two projects: **Gestor Aramis**, an adopted internal tool, and **Editorial Cockpit**, a functional AI workflow project. Spanish content and additional cases can be added later. Personal photography will follow the first release.
 
 ## Working plan
@@ -26,3 +28,17 @@ Open http://127.0.0.1:4321/. `npm run verify` checks types/content and produces 
 Profile links are in `src/data/profile.ts`. Cases are Markdown files under `src/content/projects/`; only entries with `published: true` appear in the site. Add real content and assets, then use the existing case structure for future projects.
 
 Fonts are served locally. The first release needs no API keys, live AI calls or third-party contact form.
+
+## Cloudflare hosting
+
+The site is served as static assets on Cloudflare Workers. Configuration is in `wrangler.jsonc`; the server does not execute application code. The default origin in `astro.config.mjs` is the live `workers.dev` URL. Set `SITE_URL` when switching to a custom domain, then rebuild to update canonical URLs, the social preview, robots and sitemap.
+
+```sh
+npm run deploy
+```
+
+Deployment requires the existing Cloudflare login. This command validates and builds before publishing. Never add tokens or local credential files to the repository.
+
+After deploying, run `npm run check:live` to validate public page status, canonical metadata, downloadable assets, sitemap and the custom 404 response. The checks use the current live origin or a `SITE_URL` override.
+
+The supplied English CV is downloadable as-is. Its project descriptions can be updated separately to match the current portfolio.
