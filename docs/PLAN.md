@@ -25,7 +25,7 @@ Help potential employers and collaborators understand Miguel's experience, inspe
 | 2 | Astro structure, shared components and visual foundations | Development server and production build work; basic mobile layout checked | Complete |
 | 3 | Complete home page | Real copy, usable navigation, CV and contact links | Complete |
 | 4a | Gestor Aramis case | Problem, contribution, decisions, evidence and status are clear | Complete |
-| 4b | Editorial Cockpit case | Human review, development process and demo limitations are clear | Pending |
+| 4b | Editorial Cockpit case | Human review, development process and demo limitations are clear | Complete |
 | 5 | Visual and release review | Desktop/mobile/keyboard checks, metadata, links and production build pass | Pending |
 | 6 | Cloudflare publication | Published pages, assets, downloads and 404 checked against the live URL | Pending |
 
@@ -58,3 +58,4 @@ Project content has a slug, title, summary, publication flag, project status, ro
 - 2026-10-06 — Chunk 2: Astro 7 structure, typed project collection, shared layout, local fonts, CV and initial project assets. Type/content check: zero errors, warnings or hints. Production build passed. The 390px mobile foundation has no horizontal overflow. Updated Sharp through an override for Wrangler's dependency; npm audit reports zero vulnerabilities. Empty collection notices are expected before chunk 4 adds the cases.
 - 2026-10-06 — Chunk 3: complete English home, profile/contact/resume links, two project cards and shared case-page structure with initial accurate overviews. Type/content validation and four-page build passed. Desktop and 390px mobile inspection showed both projects and no horizontal overflow. Both case routes and the supplied PDF return HTTP 200. Case narratives are expanded in chunk 4.
 - 2026-10-06 — Chunk 4a: Gestor narrative expanded with the operational problem, Miguel's contribution, 122-video decision, Drive/MOV integration, focused workflow, qualitative adoption evidence and current scope. Type/content checks and build passed; the browser confirmed all seven sections and valid table-of-contents targets.
+- 2026-10-06 — Chunk 4b: Cockpit case describes the initial GPT workflow, relational model, Excalidraw sketches, chunk-based development, human review boundary and agent responsibilities. Public stub demo and current adoption status are explicit. Type/content checks and build passed; browser confirmed six sections, valid index anchors and the expandable implementation explanation.
