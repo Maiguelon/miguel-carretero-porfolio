@@ -1,0 +1,9 @@
+---
+import { profile } from '../data/profile';
+import Arrow from './Arrow.astro';
+---
+<footer class="site-footer container">
+  <span>© {new Date().getFullYear()} {profile.shortName}</span>
+  <span class="footer-location">Made in Tucumán, Argentina.</span>
+  <a href="#top">Back to top <Arrow class="up-arrow" /></a>
+</footer>

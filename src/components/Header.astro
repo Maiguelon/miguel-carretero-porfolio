@@ -1,0 +1,12 @@
+---
+import Arrow from './Arrow.astro';
+import { profile } from '../data/profile';
+---
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header container">
+  <a class="wordmark" href="/" aria-label="Miguel Carretero — home"><span class="monogram">mc<span>.</span></span><span class="wordmark-name">Miguel Carretero</span></a>
+  <nav aria-label="Main navigation">
+    <a href="/#work">Work</a><a href="/#about">About</a><a href="/#contact">Contact</a>
+    <a class="resume-link" href={profile.resume} target="_blank" rel="noopener">Résumé <Arrow diagonal /></a>
+  </nav>
+</header>

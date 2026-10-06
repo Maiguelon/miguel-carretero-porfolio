@@ -22,7 +22,7 @@ Help potential employers and collaborators understand Miguel's experience, inspe
 | Chunk | Scope | Completion check | Status |
 | --- | --- | --- | --- |
 | 1 | Requirements, narrative, evidence and asset inventory | Requirements match the conversation; links and evidence identified | Complete |
-| 2 | Astro structure, shared components and visual foundations | Development server and production build work; basic mobile layout checked | Pending |
+| 2 | Astro structure, shared components and visual foundations | Development server and production build work; basic mobile layout checked | Complete |
 | 3 | Complete home page | Real copy, usable navigation, CV and contact links | Pending |
 | 4a | Gestor Aramis case | Problem, contribution, decisions, evidence and status are clear | Pending |
 | 4b | Editorial Cockpit case | Human review, development process and demo limitations are clear | Pending |
@@ -55,3 +55,4 @@ Project content has a slug, title, summary, publication flag, project status, ro
 ## Progress log
 
 - 2026-10-06 — Located the empty repository, checked the environment, approved scope and relevant sources. No application code or deployment yet.
+- 2026-10-06 — Chunk 2: Astro 7 structure, typed project collection, shared layout, local fonts, CV and initial project assets. Type/content check: zero errors, warnings or hints. Production build passed. The 390px mobile foundation has no horizontal overflow. Updated Sharp through an override for Wrangler's dependency; npm audit reports zero vulnerabilities. Empty collection notices are expected before chunk 4 adds the cases.
