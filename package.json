@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",
     "check": "astro check",
+    "prebuild": "node scripts/prepare-assets.mjs",
     "build": "astro build",
     "preview": "astro preview --host 127.0.0.1",
     "verify": "npm run check && npm run build",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
+    "sharp": "0.35.5",
     "typescript": "~5.9.3",
     "wrangler": "4.148.0"
   },
