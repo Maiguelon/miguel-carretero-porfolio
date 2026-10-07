@@ -40,7 +40,7 @@ These checks cover the portfolio's current static pages and links. They do not c
 
 - URL: https://miguel-carretero-portfolio.miguel-carretero.workers.dev
 - Hosting: Cloudflare Workers static assets; no application server code or runtime bindings.
-- Final version: `16897ef2-2c11-46ec-8b62-fce6c6e1f35a`.
+- Initial release version: `16897ef2-2c11-46ec-8b62-fce6c6e1f35a`.
 - `npm run check:live` passed: home and both cases return HTML/200 with the correct page titles, canonical origin, absolute social image and `nosniff` response header.
 - Public CV and social PNG return 200 with the expected content types.
 - Sitemap contains exactly the three published pages; robots references the same public sitemap.
@@ -58,3 +58,7 @@ These checks cover the portfolio's current static pages and links. They do not c
 - Soluntech uses the user-reported discovery-call ranges without invented percentages, comparison dates, qualification or booked/held labels.
 - Cáceres patient attribution remains explicitly client-reported. Campaign spend, currency, period, ROI and conversion rates are omitted pending context.
 - Gestor adoption is a current count; coordination improvements remain qualitative team observations.
+- Published to the same URL, Cloudflare version `51c769e6-edf8-433b-b102-cc1749e0d6e7`.
+- `npm run check:live` passed all existing public page, asset, sitemap, robots and custom 404 checks.
+- Browser confirmed the three public outcome blocks and followed the Gestor link to the updated case. Public home inspected at the default 507px width and at 1280px: no horizontal overflow, loaded fonts, zero client scripts and no console errors.
+- Publication proof saved locally under ignored `work/outcomes-published.jpg`.
