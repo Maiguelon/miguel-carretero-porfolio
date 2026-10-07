@@ -24,36 +24,66 @@ const projects = (await getCollection('projects', ({ data }) => data.published))
     </a>
   </section>
   <div class="discipline-strip container"><span>A business problem.</span><span>A thoughtful decision.</span><span>A tool people can use.</span><span class="strip-end">That's the thread through my work. <Arrow /></span></div>
+  <section class="outcomes-section container" aria-labelledby="outcomes-title">
+    <div class="section-topline"><p class="section-label"><span>01</span> Selected outcomes</p><h2 id="outcomes-title" class="outcomes-title">What changed through the work.</h2></div>
+    <div class="outcomes-grid">
+      <article class="outcome-card">
+        <p class="eyebrow outcome-context">Soluntech · RFP channel</p>
+        <div class="outcome-comparison" aria-label="Monthly discovery calls: between zero and two before, between ten and twelve after">
+          <div><span class="outcome-value">0–2</span><span class="comparison-label">Before / month</span></div>
+          <Arrow />
+          <div><span class="outcome-value">10–12</span><span class="comparison-label">After / month</span></div>
+        </div>
+        <h3>Discovery calls per month</h3>
+        <p>I improved RFP intake and follow-up, replacing screenshot-based records with a searchable Google Sheet and a clearer CRM handoff.</p>
+        <a class="text-link outcome-link" href="#soluntech">How I approached it <Arrow diagonal /></a>
+      </article>
+      <article class="outcome-card">
+        <p class="eyebrow outcome-context">Aramis · Dermatology campaign</p>
+        <p class="outcome-value outcome-single">104</p>
+        <h3>WhatsApp conversations started</h3>
+        <p>A three-ad campaign for Dr. Cáceres focused on inquiries and consultation bookings.</p>
+        <p class="outcome-detail"><strong>At least 6 patients</strong> attributed to the campaign by the client.</p>
+      </article>
+      <article class="outcome-card">
+        <p class="eyebrow outcome-context">Gestor Aramis · In use</p>
+        <p class="outcome-value outcome-single">3</p>
+        <h3>People using one shared workspace</h3>
+        <p>Two in marketing, one in design. Our team reports no more delays caused by someone being unaware of pending work.</p>
+        <a class="text-link outcome-link" href="/projects/gestor-aramis/#what-changed">See the workflow <Arrow diagonal /></a>
+      </article>
+    </div>
+  </section>
   <section id="work" class="work-section container" aria-labelledby="work-title">
-    <div class="section-topline"><p class="section-label"><span>01</span> Selected work</p><span class="eyebrow">Built, tested, iterated</span></div>
+    <div class="section-topline"><p class="section-label"><span>02</span> Selected work</p><span class="eyebrow">Built, tested, iterated</span></div>
     <div class="section-heading"><h2 id="work-title">Small teams.<br /><em>Real workflows.</em></h2><p>Two projects exploring how better systems can make planning, handoffs and decisions easier.</p></div>
     <div class="project-grid">{projects.map((project) => <ProjectCard project={project} />)}</div>
     <p class="work-footnote">Product interfaces are in Spanish. Case studies are in English.</p>
   </section>
   <section class="approach container" aria-labelledby="approach-title">
-    <div class="section-topline"><p class="section-label"><span>02</span> How I work</p><h2 id="approach-title" class="approach-title">Start with the workflow.</h2></div>
+    <div class="section-topline"><p class="section-label"><span>03</span> How I work</p><h2 id="approach-title" class="approach-title">Start with the workflow.</h2></div>
     <div class="approach-grid">
       <article><span class="approach-number">01 / Understand</span><h3>Find the friction.</h3><p>I talk to the people doing the work, map the process and identify where context, time or ownership gets lost.</p></article>
-      <article><span class="approach-number">02 / Build</span><h3>Make it concrete.</h3><p>I define the workflow, data model and interface, then work with AI coding tools in small, testable steps.</p></article>
+      <article><span class="approach-number">02 / Build</span><h3>Make it concrete.</h3><p>I choose tools around the problem, from a clear spreadsheet to custom software, and use AI coding tools in small, testable steps.</p></article>
       <article><span class="approach-number">03 / Iterate</span><h3>Learn from actual use.</h3><p>I test the result, listen to feedback and adjust the tool around real constraints. People stay in control of the decisions.</p></article>
     </div>
   </section>
   <section id="about" class="about-section" aria-labelledby="about-title">
     <div class="container about-inner">
-      <div class="about-intro"><p class="section-label"><span>03</span> A little about me</p><h2 id="about-title">Marketing taught me<br />to ask <em>why.</em><br />Building lets me<br />do something about it.</h2><p class="about-location">Based in Tucumán, Argentina.<br />Working comfortably in Spanish and English.</p></div>
+      <div class="about-intro"><p class="section-label"><span>04</span> A little about me</p><h2 id="about-title">Marketing taught me<br />to ask <em>why.</em><br />Building lets me<br />do something about it.</h2><p class="about-location">Based in Tucumán, Argentina.<br />Working comfortably in Spanish and English.</p></div>
       <div class="about-copy"><p>I'm Miguel Ángel Carretero. I studied marketing, worked in a B2B software agency, and now lead operations and automation at Aramis, a small marketing agency.</p><p>Working close to clients and a small team has made the problems concrete: scattered files, unclear handoffs, repetitive follow-ups and tools that add more work than they remove.</p><p>I'm also studying programming. I use AI to help build software, while contributing the business context, product decisions and testing that shape what we build.</p><a class="text-link about-link" href={profile.resume} target="_blank" rel="noopener">View my résumé <Arrow diagonal /></a></div>
     </div>
   </section>
   <section class="experience container" aria-labelledby="experience-title">
-    <div class="experience-label"><p class="section-label"><span>04</span> Background</p><h2 id="experience-title">The path<br /><em>so far.</em></h2></div>
+    <div class="experience-label"><p class="section-label"><span>05</span> Background</p><h2 id="experience-title">The path<br /><em>so far.</em></h2></div>
     <div class="experience-list">
       <article class="experience-row"><div class="experience-date">2025 — Present</div><div><h3>Automation & Operations Lead</h3><p class="experience-company">Aramis Agency · Self-employed</p><p>Coordinate content delivery and client communication, improve production workflows, and build internal tools with the team.</p></div></article>
-      <article class="experience-row"><div class="experience-date">2024</div><div><h3>Marketing Assistant</h3><p class="experience-company">Soluntech · B2B software agency</p><p>Worked on customer discovery, structured lead intake, CRM processes and outbound campaigns alongside product and engineering teams.</p></div></article>
+      <article id="soluntech" class="experience-row"><div class="experience-date">2024</div><div><h3>Marketing Assistant</h3><p class="experience-company">Soluntech · B2B software agency</p><p>I took ownership of an RFP channel focused on Bubble and Knack opportunities. I replaced screenshot-based records with a searchable Google Sheet and manually added prospects with confirmed meetings to Pipedrive. Improvements to intake and follow-up helped monthly discovery calls grow from 0–2 to 10–12.</p><p class="experience-supporting">Also worked on customer discovery and outbound campaigns alongside product and engineering teams.</p></div></article>
       <article class="experience-row"><div class="experience-date">Education</div><div><h3>Marketing + Programming</h3><p class="experience-company">UNSTA · Universidad Nacional de Tucumán</p><p>Bachelor's degree in Marketing, graduated in 2023. University programming degree in progress.</p></div></article>
     </div>
   </section>
   <section id="contact" class="contact-section container" aria-labelledby="contact-title">
-    <div class="contact-top"><p class="section-label"><span>05</span> Let's talk</p><span class="contact-caption">Have a role or a problem in mind?</span></div>
+    <div class="contact-top"><p class="section-label"><span>06</span> Let's talk</p><span class="contact-caption">Have a role or a problem in mind?</span></div>
     <h2 id="contact-title">Let's make work<br /><em>a little easier.</em></h2>
     <div class="contact-bottom"><a class="email-link" href={`mailto:${profile.email}`}>{profile.email}<Arrow diagonal /></a><div class="social-links"><a href={profile.linkedin} target="_blank" rel="noopener">LinkedIn <Arrow diagonal /></a><a href={profile.github} target="_blank" rel="noopener">GitHub <Arrow diagonal /></a><a href={profile.resume} target="_blank" rel="noopener">Résumé <Arrow diagonal /></a></div></div>
   </section>
