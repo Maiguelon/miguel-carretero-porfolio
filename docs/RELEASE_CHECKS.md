@@ -47,3 +47,14 @@ These checks cover the portfolio's current static pages and links. They do not c
 - An unknown route returns HTTP 404 with the designed error page and noindex metadata.
 - Browser verified the public home, loaded images, correct canonical, no horizontal overflow and zero client script elements.
 - Desktop proof is saved locally under ignored `work/portfolio-desktop.jpg`.
+
+## Outcome update — 2026-10-07
+
+- `npm run verify` passed with zero TypeScript/content errors, warnings and hints; four static pages built.
+- Inspected the updated production home at 1280px, 640px and 320px. No page or outcome-card horizontal overflow. The 640px layout was repaired so monthly ranges remain on one line.
+- Checked the Soluntech anchor by following its outcome link; it reaches the expanded experience story. All same-page home anchors exist.
+- Followed the Gestor outcome link to the case's “What changed” section. The case displays three current users and the team-reported coordination outcome.
+- Gestor case also checked at 320px: no horizontal overflow or missing same-page anchor targets.
+- Soluntech uses the user-reported discovery-call ranges without invented percentages, comparison dates, qualification or booked/held labels.
+- Cáceres patient attribution remains explicitly client-reported. Campaign spend, currency, period, ROI and conversion rates are omitted pending context.
+- Gestor adoption is a current count; coordination improvements remain qualitative team observations.

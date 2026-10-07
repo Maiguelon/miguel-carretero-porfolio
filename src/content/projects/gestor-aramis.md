@@ -19,7 +19,7 @@ demo: https://gestor-aramis.pages.dev/
 demoLabel: Open app · team login
 highlights:
   - label: Real adoption
-    value: Used by the team
+    value: 3 people using it
   - label: Key decision
     value: Keep native Drive uploads
   - label: Design goal
@@ -65,11 +65,13 @@ The tool follows a small, explicit workflow:
 
 ## What changed
 
-**The team fully adopted the internal V1.** My colleague reports that design is working more efficiently. We no longer have to keep sending messages asking someone to check a folder or clarifying which part of a piece is still missing.
+**Three people now use the internal V1: two in marketing and one in design.** Everyone shares the same view of work status and pending actions. Since adopting the tool, our team reports no more delays caused by someone being unaware of what needed attention.
+
+My colleague also reports that design is working more efficiently. We no longer have to keep sending messages asking someone to check a folder or clarifying which part of a piece is still missing.
 
 Work status is now easier to inspect. The answer to “Is the latest reel ready?” has a clear place in the system, together with the action needed to move it forward.
 
-These are qualitative observations from use and team feedback. We have not measured a time-saving percentage or productivity uplift.
+The three-person adoption count reflects current use. The coordination and efficiency outcomes are observations from our team, rather than a measured delay rate or time-saving percentage.
 
 ## Under the hood
 
@@ -79,6 +81,6 @@ The interface uses React and TypeScript. Cloudflare hosts the application and AP
 
 ## Current state
 
-The internal V1 is complete, deployed and used by the team. The hosted application requires a team login; the repository includes a local demo with fictional data.
+The internal V1 is complete, deployed and used by three people across marketing and design. The hosted application requires a team login; the repository includes a local demo with fictional data.
 
 Client calendars, approvals and material-request flows exist as local prototypes. Connecting that client experience to the live system is the next product phase.
