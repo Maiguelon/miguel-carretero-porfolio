@@ -9,6 +9,7 @@
 - Public contact from the CV: miguelcarreteroangel@gmail.com
 - University programming degree is in progress. Avoid a completion percentage because source versions differ.
 - The supplied CV predates recent project updates. The website must not carry its old scheduling stack into a new project case.
+- About portrait: Miguel's photo attached on 2026-10-14, edited at his request with built-in imagegen for framing/background. Source asset and complete edit prompt documented in PORTRAIT.md.
 
 ## Selected business outcomes — update from 2026-10-07
 

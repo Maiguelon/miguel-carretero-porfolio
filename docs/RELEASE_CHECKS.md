@@ -62,3 +62,13 @@ These checks cover the portfolio's current static pages and links. They do not c
 - `npm run check:live` passed all existing public page, asset, sitemap, robots and custom 404 checks.
 - Browser confirmed the three public outcome blocks and followed the Gestor link to the updated case. Public home inspected at the default 507px width and at 1280px: no horizontal overflow, loaded fonts, zero client scripts and no console errors.
 - Publication proof saved locally under ignored `work/outcomes-published.jpg`.
+
+## Portrait update — 2026-10-14
+
+- `npm run verify` passed: zero TypeScript/content errors, warnings and hints; four static pages built with responsive portrait assets.
+- The selected edited portrait is stored in the repository. The original attached image remains unchanged and has a local backup under ignored work/.
+- About has a full-width heading followed by a photo and biography; the mobile layout stacks the content.
+- Visually inspected the production build at desktop 1280px, tablet 640px and mobile 320px. Also checked dimensions and overflow at 390px. No horizontal overflow at any checked width.
+- Portrait loads successfully, includes meaningful alternative text and dimensions, and uses lazy loading. Browser selected the optimized AVIF source.
+- Existing About copy, location/languages and resume link remain present. No client-side scripts or new runtime services were added.
+- No browser console errors during the local review.

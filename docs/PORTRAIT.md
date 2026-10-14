@@ -1,7 +1,7 @@
 # About portrait
 
 - Added at Miguel's request on 2026-10-14.
-- Input: the portrait attached in the conversation. The supplied source remains unchanged outside this repository.
+- Input: the portrait attached in the conversation. The supplied source remains unchanged, with an additional local backup under ignored `work/miguel-portrait-original.png`.
 - Edit method: built-in imagegen, identity-preserve edit. Requested a closer portrait crop and a softer, less bright park background.
 - Selected output copied into `src/assets/miguel-portrait-edited.png`; the site does not depend on a temporary file or the generated-image directory.
 - Astro generates responsive AVIF/WebP derivatives. The portrait is lazy-loaded, has explicit dimensions and descriptive alternative text.

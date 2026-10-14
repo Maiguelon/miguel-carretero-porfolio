@@ -76,12 +76,16 @@
 .approach-grid h3 { font-family: var(--serif); font-size: 29px; margin-block: 14px 10px; }
 .approach-grid p { color: var(--muted); font-size: 12px; max-width: 315px; }
 .about-section { background: #293b2d; color: var(--paper); }
-.about-inner { display: grid; grid-template-columns: 1.1fr 1fr; gap: 100px; padding-block: 72px; }
+.about-inner { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 38px 72px; padding-block: 72px; align-items: start; }
+.about-intro { grid-column: 1 / -1; }
 .about-section .section-label span { color: #bac6b5; }
 .about-intro h2 { font-family: var(--serif); font-size: 47px; line-height: 1.12; letter-spacing: -.015em; margin-top: 30px; }
 .about-intro h2 em { color: #c6d4b6; }
-.about-location { margin-top: 32px; color: #c2cbbf; font-size: 10px; }
-.about-copy { padding-top: 45px; }
+.about-portrait { margin: 0; width: min(100%, 280px); }
+.about-portrait picture { display: block; }
+.about-portrait img { width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 4px; }
+.about-location { margin-top: 20px; color: #c2cbbf; font-size: 10px; }
+.about-copy { padding-top: 0; max-width: 620px; }
 .about-copy > p { font-size: 14px; line-height: 1.8; margin-bottom: 18px; color: #e0e5da; }
 .about-link { margin-top: 10px; font-size: 12px; border-bottom: 1px solid #7c8d78; padding-bottom: 5px; }
 .about-link:hover { color: #d6dcb4; }
