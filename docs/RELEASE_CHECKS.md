@@ -1,5 +1,14 @@
 # Release checks — 2026-10-06
 
+## Square portrait display — 2026-10-14
+
+- Kept the 280px maximum width and changed the visible crop to a square, anchored at the top. The source photo remains unchanged; a local backup of the prior photo and layout is under ignored `work/portrait-before-square-2026-10-14/`.
+- `npm run verify` passed with zero errors, warnings or hints.
+- Reviewed the production build at 1280px and 320px: square portrait loads without horizontal overflow; desktop portrait ends close to the résumé link.
+- Published Cloudflare version `52df464a-44ec-4994-a2d1-4c0096994cc5`; `npm run check:live` passed all checks.
+- Public HTML verified against the current build using a version query to bypass a cached prior response. Browser confirmed the public portrait renders at 280 × 280px.
+- Publication screenshot: ignored `work/about-square-published.png`.
+
 ## Build and dependencies
 
 - `npm run verify`: TypeScript/content validation passed with zero errors, warnings and hints; four static pages built successfully.

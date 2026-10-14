@@ -7,6 +7,12 @@
 - Astro generates responsive AVIF/WebP derivatives. The portrait is lazy-loaded, has explicit dimensions and descriptive alternative text.
 - This photo is used in About; project screenshots remain the focus of Selected work.
 
+## Square display crop — 2026-10-14
+
+- The About portrait now displays in a square at the same 280px maximum width, with the top of the photo preserved and the lower torso cropped through CSS.
+- The source image remains unchanged. The previous photo, stylesheet and About page were also backed up locally under ignored `work/portrait-before-square-2026-10-14/`.
+- The prior published layout can be recovered from commit `6b217e4`.
+
 ## Final edit prompt
 
 ```text
