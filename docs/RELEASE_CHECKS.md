@@ -72,3 +72,7 @@ These checks cover the portfolio's current static pages and links. They do not c
 - Portrait loads successfully, includes meaningful alternative text and dimensions, and uses lazy loading. Browser selected the optimized AVIF source.
 - Existing About copy, location/languages and resume link remain present. No client-side scripts or new runtime services were added.
 - No browser console errors during the local review.
+- Published on the existing Worker, version `cca99350-b7e0-4958-8359-45e6291f4371`.
+- `npm run check:live` passed all existing page, asset, sitemap, robots and 404 checks.
+- Public AVIF and WebP assets return 200, the expected image MIME types and immutable cache headers.
+- Browser verified the public About section with a loaded portrait and fonts, no horizontal overflow and no console errors. Saved screenshot under ignored `work/about-portrait-published.jpg`.

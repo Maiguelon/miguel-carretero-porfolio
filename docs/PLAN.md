@@ -33,7 +33,7 @@ Help potential employers and collaborators understand Miguel's experience, inspe
 | 7c | Publish outcome update | Updated public pages and existing release checks pass | Complete |
 | 8a | Edit and preserve the personal portrait | Selected image copied into the repository; original preserved; edit prompt recorded | Complete |
 | 8b | Add portrait to About | Responsive layout, image loading and existing content checked | Complete |
-| 8c | Publish portrait update | Public About section and static assets verified | In progress |
+| 8c | Publish portrait update | Public About section and static assets verified | Complete |
 
 ## Content structure
 
@@ -73,3 +73,4 @@ Project content has a slug, title, summary, publication flag, project status, ro
 - 2026-10-07 — Chunk 7c: published the outcome update to the existing Cloudflare Worker, version 51c769e6-edf8-433b-b102-cc1749e0d6e7. The live smoke check passed all page, asset, sitemap, robots and 404 checks. Browser confirmed the public home outcomes and updated Gestor case, loaded fonts, zero client scripts, no horizontal overflow and no console errors. Local proof is saved under ignored work/outcomes-published.jpg. Campaign timing/currency and the Soluntech measurement details remain follow-up content questions; no unsupported derived metrics were added.
 - 2026-10-14 — Chunk 8a: edited Miguel's supplied portrait with built-in imagegen for a closer crop and a softer park background. Selected source lives in src/assets/miguel-portrait-edited.png. The complete prompt and delivery method are recorded in docs/PORTRAIT.md. The supplied original is unchanged; an additional local backup is kept under ignored work/miguel-portrait-original.png.
 - 2026-10-14 — Chunk 8b: added the portrait to About, with a full-width introduction and a photo/biography layout that stacks on mobile. Preserved the existing biography, location/languages and resume link. Astro supplies responsive AVIF/WebP assets with dimensions, alt text and lazy loading. Type/content check and four-page production build passed. Visually inspected desktop, tablet and narrow mobile; no horizontal overflow at 1280px, 640px, 390px or 320px, and no browser console errors.
+- 2026-10-14 — Chunk 8c: published to the existing Cloudflare Worker, version cca99350-b7e0-4958-8359-45e6291f4371. Live checks passed for all public pages, CV/social assets, robots, sitemap and custom 404; AVIF/WebP portrait assets return 200 with expected content types and immutable cache headers. Public browser confirmed the loaded portrait, fonts, About layout and no console errors. Saved proof under ignored work/about-portrait-published.jpg.
