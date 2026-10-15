@@ -1,5 +1,14 @@
 # Release checks — 2026-10-06
 
+## CV summary and leadership revision — 2026-10-15
+
+- Synchronized the revised CV after improving its operations/automation summary and restoring leadership of two colleagues. The client-attributed dermatology result remains; no campaign spend was added.
+- The PDF remains one page with selectable text, 11-point body text and six active links. The editable Word version was also rendered and visually checked as one page.
+- `npm run verify` passed with zero errors, warnings or hints. The four-page production build includes the revised PDF and all five résumé links use `/resume/miguel-carretero-cv-en.pdf?v=16081b54bcd1`.
+- Published Cloudflare version `97e49dc3-1e64-4d25-955d-043a59188c78`; `npm run check:live` passed all checks.
+- Public GET requests to both the versioned and original PDF URLs return HTTP 200, `application/pdf`, and the exact 92,272-byte worky PDF. SHA-256: `16081b54bcd1c2c8e4f968a43ccf0ac728c3060c02f5aa690db2918f96a2fd75`.
+- Verified the three home résumé links and both case-page header links use the new version. Proof: ignored `work/cv-publication-checks-2026-10-15.json`.
+
 ## Updated English résumé — 2026-10-14
 
 - Replaced the public PDF with Miguel's supplied `../1Miguel_Carretero_CV_EN.pdf` and versioned the shared résumé URL as `/resume/miguel-carretero-cv-en.pdf?v=7583e76099ba`.
@@ -47,7 +56,7 @@ Reviewed the production build with the Codex browser, not only the development s
 - Both case pages distinguish Miguel's product/process contribution from AI-assisted implementation.
 - Gestor screenshots use fictional data. Cockpit screenshot is from the public demo.
 - Future projects are not published as empty cases.
-- The downloadable PDF is Miguel's approved English CV supplied on 2026-10-14. It describes the current project contributions and adoption, retains the original technical skills, and includes TAP participation and the approved 70% degree progress.
+- The downloadable PDF is Miguel's approved English CV revised on 2026-10-15. It describes the current project contributions and adoption, retains the original technical skills, and includes TAP participation and the approved 70% degree progress.
 
 ## Scope
 
