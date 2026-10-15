@@ -1,5 +1,14 @@
 # Release checks — 2026-10-06
 
+## Anonymous dermatology campaign — 2026-10-15
+
+- Replaced the client's name on the home page with “a dermatology practice”. Preserved the three-ad context, 104 conversations and at least six patients attributed by the client.
+- Removed direct client identifiers and the internal source-document URL from current repository documentation. Original source reference remains under ignored work/.
+- Visually inspected all three public project screenshots; none shows the client's name. Extracted text from the downloadable CV also contains no client identifiers.
+- Type/content validation passed with zero errors, warnings or hints, and the four-page production build passed. Checked current source, documentation and generated pages for the removed identifiers.
+- Published Cloudflare version `5cfc9388-96db-4b3c-b78b-8a1e2ec04839`; `npm run check:live` passed all checks.
+- Public home returns HTTP 200, contains the anonymous description and original campaign outcomes, and contains no direct client identifiers or internal brief URL. Evidence: ignored `work/anonymous-campaign-publication-2026-10-15.json`.
+
 ## CV summary and leadership revision — 2026-10-15
 
 - Synchronized the revised CV after improving its operations/automation summary and restoring leadership of two colleagues. The client-attributed dermatology result remains; no campaign spend was added.
