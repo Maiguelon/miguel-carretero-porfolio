@@ -39,7 +39,7 @@ Reviewed the production build with the Codex browser, not only the development s
 - Both case pages distinguish Miguel's product/process contribution from AI-assisted implementation.
 - Gestor screenshots use fictional data. Cockpit screenshot is from the public demo.
 - Future projects are not published as empty cases.
-- The downloadable PDF is the supplied English CV, unchanged. It predates the latest project descriptions on the site.
+- The downloadable PDF is Miguel's approved English CV supplied on 2026-10-14. It describes the current project contributions and adoption, retains the original technical skills, and includes TAP participation and the approved 70% degree progress.
 
 ## Scope
 

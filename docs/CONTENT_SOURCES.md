@@ -2,13 +2,14 @@
 
 ## Personal background
 
-- Supplied English CV: `../CV actuales/Miguel_Angel_Carretero_CV_EN.pdf` (outside this repository).
+- Current downloadable English CV: `../1Miguel_Carretero_CV_EN.pdf`, approved and supplied by Miguel on 2026-10-14 (outside this repository). Public copy: `public/resume/miguel-carretero-cv-en.pdf`; SHA-256: `7583e76099ba369dadc10f7ff79d25185b1a3658fb8a5695b072fc75a8331976`.
+- Original background CV: `../CV actuales/Miguel_Angel_Carretero_CV_EN.pdf` (outside this repository).
 - Supplied English DOCX was read to confirm name, education, experience and public contact details.
 - LinkedIn supplied in `../links_comunes.txt`: https://www.linkedin.com/in/miguel-carretero-
 - GitHub account from the repository remote: https://github.com/Maiguelon
 - Public contact from the CV: miguelcarreteroangel@gmail.com
-- University programming degree is in progress. Avoid a completion percentage because source versions differ.
-- The supplied CV predates recent project updates. The website must not carry its old scheduling stack into a new project case.
+- University programming degree is in progress. Miguel checked 69.23% completion on 2026-10-14 and explicitly approved the rounded 70% used in the current CV.
+- The current CV distinguishes project technologies from personal skills, AI-assisted implementation from Miguel's product/process contribution, and functional prototypes from adopted tools. Its n8n/Typebot scheduling workflow was functional but was not rolled out; do not present it as an adopted production system.
 - About portrait: Miguel's photo attached on 2026-10-14, edited at his request with built-in imagegen for framing/background. Source asset and complete edit prompt documented in PORTRAIT.md.
 
 ## Selected business outcomes — update from 2026-10-07
