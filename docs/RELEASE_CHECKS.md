@@ -82,7 +82,7 @@ These checks cover the portfolio's current static pages and links. They do not c
 - Followed the Gestor outcome link to the case's “What changed” section. The case displays three current users and the team-reported coordination outcome.
 - Gestor case also checked at 320px: no horizontal overflow or missing same-page anchor targets.
 - Soluntech uses the user-reported discovery-call ranges without invented percentages, comparison dates, qualification or booked/held labels.
-- Cáceres patient attribution remains explicitly client-reported. Campaign spend, currency, period, ROI and conversion rates are omitted pending context.
+- Dermatology campaign patient attribution remains explicitly client-reported. Campaign spend, currency, period, ROI and conversion rates are omitted pending context.
 - Gestor adoption is a current count; coordination improvements remain qualitative team observations.
 - Published to the same URL, Cloudflare version `51c769e6-edf8-433b-b102-cc1749e0d6e7`.
 - `npm run check:live` passed all existing public page, asset, sitemap, robots and custom 404 checks.
