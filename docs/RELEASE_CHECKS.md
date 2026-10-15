@@ -1,5 +1,13 @@
 # Release checks — 2026-10-06
 
+## Updated English résumé — 2026-10-14
+
+- Replaced the public PDF with Miguel's supplied `../1Miguel_Carretero_CV_EN.pdf` and versioned the shared résumé URL as `/resume/miguel-carretero-cv-en.pdf?v=7583e76099ba`.
+- `npm run verify` passed with zero errors, warnings or hints; four static pages built successfully. The production PDF matches the supplied one-page source byte for byte.
+- Published Cloudflare version `39fc4ebb-1398-486c-975f-e145248b7562`; `npm run check:live` passed all page, asset, sitemap, robots and custom 404 checks.
+- Public GET requests to the versioned and original PDF URLs return HTTP 200 and `application/pdf`. Both return 92,237 bytes with SHA-256 `7583e76099ba369dadc10f7ff79d25185b1a3658fb8a5695b072fc75a8331976`, identical to the supplied source.
+- Verified the three public home résumé links and both case-page header links point to the versioned URL. Publication proof is stored under ignored `work/cv-publication-checks-2026-10-14.json`.
+
 ## Square portrait display — 2026-10-14
 
 - Kept the 280px maximum width and changed the visible crop to a square, anchored at the top. The source photo remains unchanged; a local backup of the prior photo and layout is under ignored `work/portrait-before-square-2026-10-14/`.
