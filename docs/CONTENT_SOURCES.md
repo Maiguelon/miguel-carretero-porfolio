@@ -2,7 +2,7 @@
 
 ## Personal background
 
-- Current downloadable English CV: `../1Miguel_Carretero_CV_EN.pdf`, approved and supplied by Miguel on 2026-10-14 (outside this repository). Public copy: `public/resume/miguel-carretero-cv-en.pdf`; SHA-256: `7583e76099ba369dadc10f7ff79d25185b1a3658fb8a5695b072fc75a8331976`.
+- Current downloadable English CV: `../1Miguel_Carretero_CV_EN.pdf`, revised at Miguel's request on 2026-10-15 (outside this repository). Public copy: `public/resume/miguel-carretero-cv-en.pdf`; SHA-256: `16081b54bcd1c2c8e4f968a43ccf0ac728c3060c02f5aa690db2918f96a2fd75`.
 - Original background CV: `../CV actuales/Miguel_Angel_Carretero_CV_EN.pdf` (outside this repository).
 - Supplied English DOCX was read to confirm name, education, experience and public contact details.
 - LinkedIn supplied in `../links_comunes.txt`: https://www.linkedin.com/in/miguel-carretero-
@@ -10,6 +10,7 @@
 - Public contact from the CV: miguelcarreteroangel@gmail.com
 - University programming degree is in progress. Miguel checked 69.23% completion on 2026-10-14 and explicitly approved the rounded 70% used in the current CV.
 - The current CV distinguishes project technologies from personal skills, AI-assisted implementation from Miguel's product/process contribution, and functional prototypes from adopted tools. Its n8n/Typebot scheduling workflow was functional but was not rolled out; do not present it as an adopted production system.
+- The 2026-10-15 CV revision leads with 2+ years of operations/automation experience and explicitly includes leadership of two colleagues in marketing and design. The dermatology campaign remains client-attributed, with no spend or cost-per-conversation claim.
 - About portrait: Miguel's photo attached on 2026-10-14, edited at his request with built-in imagegen for framing/background. Source asset and complete edit prompt documented in PORTRAIT.md.
 
 ## Selected business outcomes — update from 2026-10-07

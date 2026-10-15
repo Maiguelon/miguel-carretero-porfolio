@@ -41,4 +41,4 @@ Deployment requires the existing Cloudflare login. This command validates and bu
 
 After deploying, run `npm run check:live` to validate public page status, canonical metadata, downloadable assets, sitemap and the custom 404 response. The checks use the current live origin or a `SITE_URL` override.
 
-The downloadable English CV is Miguel's approved version from 2026-10-14, supplied as `../1Miguel_Carretero_CV_EN.pdf`. The shared résumé link includes a version derived from the PDF's content hash so updated links request the current file.
+The downloadable English CV is Miguel's approved version from 2026-10-15, supplied as `../1Miguel_Carretero_CV_EN.pdf`. The shared résumé link includes a version derived from the PDF's content hash so updated links request the current file.
