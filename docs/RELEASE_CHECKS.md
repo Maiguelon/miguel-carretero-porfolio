@@ -6,6 +6,8 @@
 - Gestor's supporting copy retains the three-person count and presents coordination improvements as team feedback. The new headline makes no percentage, time-saving or ROI claim.
 - `npm run verify` passed with zero errors, warnings or hints and four static pages built successfully.
 - Inspected the production preview at 1280px, 640px and 320px: two desktop/tablet columns, one mobile column, no page/card horizontal overflow, and no console warnings or errors. Followed “See the workflow” to the case's “What changed” heading.
+- Published Cloudflare version `18a4e319-1d97-4d35-bfc0-227651fd39f4`; `npm run check:live` passed all existing page, asset, sitemap, robots and custom 404 checks.
+- The public home returns HTTP 200 and confirms both outcome cards, the existing Soluntech ranges, Gestor's team-adoption headline and three-person context, and no campaign highlight or redundant RFP link. Browser review confirmed the published layout, no horizontal overflow and zero client scripts. Proof: ignored `work/focused-outcomes-publication-2026-10-18.json` and `work/outcomes-focused-published.png`.
 
 ## Anonymous dermatology campaign — 2026-10-15
 
