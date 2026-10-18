@@ -5,6 +5,7 @@
 - Outcome descriptions now use a maximum width of 48ch, 13px body text and `text-wrap: pretty`; the existing card grid and all copy remain intact.
 - `npm run verify` passed with zero errors, warnings or hints and four pages built.
 - Reviewed the desktop production preview at 1600px: descriptions are approximately 427px wide, and the RFP paragraph wraps into two balanced lines. At 640px and 320px, both descriptions remain within their cards, with no page horizontal overflow. Mobile text remains 13px. No browser warnings or errors were recorded.
+- Published Cloudflare version `92881543-b8d8-48a7-b1c7-ef6bcd575b14`; all existing live checks passed. The public browser confirms the new font size, width limit and paragraph wrapping, without horizontal overflow. Proof: ignored `work/outcome-reading-width-publication-2026-10-18.json` and `work/outcome-reading-width-published.png`.
 
 ## Focused home outcomes — 2026-10-18
 
