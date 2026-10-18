@@ -1,5 +1,11 @@
 # Release checks — 2026-10-06
 
+## Outcome paragraph readability — 2026-10-18
+
+- Outcome descriptions now use a maximum width of 48ch, 13px body text and `text-wrap: pretty`; the existing card grid and all copy remain intact.
+- `npm run verify` passed with zero errors, warnings or hints and four pages built.
+- Reviewed the desktop production preview at 1600px: descriptions are approximately 427px wide, and the RFP paragraph wraps into two balanced lines. At 640px and 320px, both descriptions remain within their cards, with no page horizontal overflow. Mobile text remains 13px. No browser warnings or errors were recorded.
+
 ## Focused home outcomes — 2026-10-18
 
 - The home now features two outcomes: Soluntech's monthly discovery-call improvement and Gestor's adoption by the whole current team. The campaign highlight and redundant RFP-to-background link were removed.

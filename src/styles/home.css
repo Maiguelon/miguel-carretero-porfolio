@@ -33,7 +33,7 @@
 .comparison-label { display: block; color: var(--muted); font-size: 9px; margin-top: 6px; }
 .outcome-adoption { font-family: var(--serif); font-size: 36px; line-height: 1.1; letter-spacing: -.02em; color: var(--olive); margin-block: 25px 22px; }
 .outcome-card h3 { font-size: 14px; font-weight: 500; line-height: 1.5; margin-bottom: 12px; }
-.outcome-card > p:not(.outcome-adoption):not(.eyebrow) { font-size: 12px; color: var(--muted); }
+.outcome-card > p:not(.outcome-adoption):not(.eyebrow) { max-width: 48ch; font-size: 13px; color: var(--muted); text-wrap: pretty; }
 .outcome-link { font-size: 11px; margin-top: auto; padding-top: 20px; }
 .outcome-link svg { width: 15px; }
 .work-section { padding-block: 88px 78px; }
