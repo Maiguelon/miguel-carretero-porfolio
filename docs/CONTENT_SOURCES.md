@@ -15,6 +15,7 @@
 
 ## Selected business outcomes — update from 2026-10-07
 
+- Selection revised at Miguel's request on 2026-10-18: feature only the Soluntech RFP improvement and Gestor's team adoption. The dermatology campaign remains background evidence and in the approved CV; it is no longer a home-page highlight. Miguel has no RFP screenshots to supply, so do not imply a separate illustrated case study. The redundant home-to-background RFP link has been removed. Gestor's headline emphasizes adoption by the whole current team, with the three-person count retained in supporting copy.
 - Soluntech: Miguel reports that the RFP channel went from 0–2 to 10–12 discovery calls per month after his changes. The channel was approximately 80% Bubble / 20% Knack. His changes included replacing unnamed RFP screenshots with a searchable Google Sheet and manually transferring prospects with confirmed meetings into Pipedrive.
 - Present the before/after monthly ranges and the workflow contribution together. Do not calculate a growth percentage or multiplier with a baseline that includes zero, or attribute the entire result to the Sheet alone.
 - The exact comparison months, persistence of the new level and whether the calls were booked or held remain to be confirmed. Use the neutral term “discovery calls”; do not add a timeframe or “qualified” label. This is a different metric from the older CV's qualified-lead claim.

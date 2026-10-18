@@ -1,5 +1,12 @@
 # Release checks — 2026-10-06
 
+## Focused home outcomes — 2026-10-18
+
+- The home now features two outcomes: Soluntech's monthly discovery-call improvement and Gestor's adoption by the whole current team. The campaign highlight and redundant RFP-to-background link were removed.
+- Gestor's supporting copy retains the three-person count and presents coordination improvements as team feedback. The new headline makes no percentage, time-saving or ROI claim.
+- `npm run verify` passed with zero errors, warnings or hints and four static pages built successfully.
+- Inspected the production preview at 1280px, 640px and 320px: two desktop/tablet columns, one mobile column, no page/card horizontal overflow, and no console warnings or errors. Followed “See the workflow” to the case's “What changed” heading.
+
 ## Anonymous dermatology campaign — 2026-10-15
 
 - Replaced the client's name on the home page with “a dermatology practice”. Preserved the three-ad context, 104 conversations and at least six patients attributed by the client.
