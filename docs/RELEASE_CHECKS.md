@@ -6,7 +6,8 @@
 - Programming education remains in Background. Project statuses, personal technical skills and measured/qualitative claim boundaries are preserved; no new performance or engineering claims were added.
 - `npm run verify` passed: zero errors, warnings or hints; four static pages built. `git diff --check` passed.
 - Reviewed the production preview at 1280px and 320px: readable introductory copy and biography, no horizontal overflow, existing résumé link and all home anchor targets present. Browser recorded no warnings/errors. The regenerated 1200 × 630 social preview was visually inspected.
-- Publication verification pending.
+- Published Cloudflare version `18a9d9c8-15a6-4f90-8f2a-479e9ddc5be1`; `npm run check:live` passed all page, asset, sitemap, robots and custom 404 checks. The public home and social PNG match the verified build byte for byte.
+- Browser confirmed the public title, role, introduction and loaded hero image, without horizontal overflow. Proof: ignored `work/operations-positioning-publication-2026-10-19.json` and `work/operations-positioning-published-2026-10-19.png`.
 
 ## Outcome paragraph readability — 2026-10-18
 
