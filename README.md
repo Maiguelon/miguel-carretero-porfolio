@@ -1,6 +1,6 @@
 # Miguel Ángel Carretero — portfolio
 
-Personal portfolio focused on product decisions, operations and AI-assisted tools.
+Personal portfolio focused on operations and automation: marketing and sales workflows, CRM organization and AI-assisted internal tools.
 
 **Live site:** https://miguel-carretero-portfolio.miguel-carretero.workers.dev
 

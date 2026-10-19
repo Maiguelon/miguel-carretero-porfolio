@@ -38,6 +38,8 @@ Help potential employers and collaborators understand Miguel's experience, inspe
 | 12b | Publish focused outcomes | Existing Cloudflare deployment updated and live content verified | Complete |
 | 13a | Improve outcome paragraph readability | Shorter reading measure, balanced wrapping and responsive layout verified | Complete |
 | 13b | Publish outcome typography adjustment | Updated public styling and existing live checks verified | Complete |
+| 14a | Clarify operations and automation positioning | Home, biography and social preview name a clear function; contribution and experience remain accurate; production build and responsive review pass | Complete |
+| 14b | Publish positioning update | Updated public home, metadata and social preview verified on the existing Worker | Pending |
 
 ## Content structure
 
@@ -64,6 +66,8 @@ Project content has a slug, title, summary, publication flag, project status, ro
 - Cloudflare's current Pages command delegated new-project creation to Workers. The first release uses a new static-assets Worker; the existing Gestor Pages project is unrelated. Existing login permissions were sufficient, and no new authorization was needed.
 
 ## Progress log
+
+- 2026-10-19 — Chunk 14a: clarified the home position as Operations & Automation, with marketing/sales workflows, CRM organization and AI-assisted internal tools as supporting evidence. Revised the introduction, work summary, biography, process, Aramis experience and contact caption; kept the programming degree in Background. Updated page metadata, the social preview and the existing live title check. Type/content validation passed with zero errors, warnings or hints; four production pages built. Reviewed the production preview at 1280px and 320px, including the About section and social image: no horizontal overflow, missing home anchors or console warnings/errors. Project status, metrics and the approved CV remain unchanged.
 
 - 2026-10-06 — Located the empty repository, checked the environment, approved scope and relevant sources. No application code or deployment yet.
 - 2026-10-06 — Chunk 2: Astro 7 structure, typed project collection, shared layout, local fonts, CV and initial project assets. Type/content check: zero errors, warnings or hints. Production build passed. The 390px mobile foundation has no horizontal overflow. Updated Sharp through an override for Wrangler's dependency; npm audit reports zero vulnerabilities. Empty collection notices are expected before chunk 4 adds the cases.

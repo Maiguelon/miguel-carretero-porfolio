@@ -12,9 +12,9 @@ const projects = (await getCollection('projects', ({ data }) => data.published))
 <BaseLayout>
   <section class="hero container" aria-labelledby="intro-title">
     <div class="hero-copy">
-      <p class="eyebrow hero-kicker"><span class="small-dot"></span>Marketing · Operations · Software</p>
+      <p class="eyebrow hero-kicker"><span class="small-dot"></span>Operations &amp; Automation</p>
       <h1 id="intro-title">Tools for the way<br />people <em>work.</em></h1>
-      <p class="lede">I'm Miguel. I turn everyday operational problems into useful tools, combining a marketing background, product thinking and AI-assisted development.</p>
+      <p class="lede">I'm Miguel. I improve marketing and sales workflows through clearer processes, better CRM organization and internal tools built with AI-assisted development.</p>
       <div class="hero-actions"><a class="button button-dark" href="#work">Explore my work <Arrow /></a><a class="text-link" href="#about">A little about me <Arrow diagonal /></a></div>
       <p class="hero-location"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="2.5" stroke="currentColor" stroke-width="1.5"/></svg>{profile.location}<span>·</span>Open to remote opportunities</p>
     </div>
@@ -50,7 +50,7 @@ const projects = (await getCollection('projects', ({ data }) => data.published))
   </section>
   <section id="work" class="work-section container" aria-labelledby="work-title">
     <div class="section-topline"><p class="section-label"><span>02</span> Selected work</p><span class="eyebrow">Built, tested, iterated</span></div>
-    <div class="section-heading"><h2 id="work-title">Small teams.<br /><em>Real workflows.</em></h2><p>Two projects exploring how better systems can make planning, handoffs and decisions easier.</p></div>
+    <div class="section-heading"><h2 id="work-title">Small teams.<br /><em>Real workflows.</em></h2><p>An internal workspace used by our team, and an AI workflow prototype with human review. Each case explains the problem, my decisions and the result.</p></div>
     <div class="project-grid">{projects.map((project) => <ProjectCard project={project} />)}</div>
     <p class="work-footnote">Product interfaces are in Spanish. Case studies are in English.</p>
   </section>
@@ -58,29 +58,29 @@ const projects = (await getCollection('projects', ({ data }) => data.published))
     <div class="section-topline"><p class="section-label"><span>03</span> How I work</p><h2 id="approach-title" class="approach-title">Start with the workflow.</h2></div>
     <div class="approach-grid">
       <article><span class="approach-number">01 / Understand</span><h3>Find the friction.</h3><p>I talk to the people doing the work, map the process and identify where context, time or ownership gets lost.</p></article>
-      <article><span class="approach-number">02 / Build</span><h3>Make it concrete.</h3><p>I choose tools around the problem, from a clear spreadsheet to custom software, and use AI coding tools in small, testable steps.</p></article>
+      <article><span class="approach-number">02 / Build</span><h3>Make it concrete.</h3><p>I define requirements and choose tools around the problem, from a clear spreadsheet to custom software. I guide AI-assisted implementation in small, testable steps.</p></article>
       <article><span class="approach-number">03 / Iterate</span><h3>Learn from actual use.</h3><p>I test the result, listen to feedback and adjust the tool around real constraints. People stay in control of the decisions.</p></article>
     </div>
   </section>
   <section id="about" class="about-section" aria-labelledby="about-title">
     <div class="container about-inner">
-      <div class="about-intro"><p class="section-label"><span>04</span> A little about me</p><h2 id="about-title">Marketing taught me to ask <em>why.</em><br />Building lets me do something about it.</h2></div>
+      <div class="about-intro"><p class="section-label"><span>04</span> A little about me</p><h2 id="about-title">Understand the work.<br /><em>Make it easier.</em></h2></div>
       <figure class="about-portrait">
         <Picture src={miguelPortrait} formats={['avif', 'webp']} widths={[280, 560, 840]} sizes="280px" width={560} height={700} alt="Miguel Ángel Carretero outdoors, wearing a beige jacket and a green sweater." loading="lazy" decoding="async" />
       </figure>
-      <div class="about-copy"><p class="about-location">Based in Tucumán, Argentina. · Spanish and English.</p><p>I'm Miguel Ángel Carretero. I studied marketing, worked in a B2B software agency, and now lead operations and automation at Aramis, a small marketing agency.</p><p>Working close to clients and a small team has made the problems concrete: scattered files, unclear handoffs, repetitive follow-ups and tools that add more work than they remove.</p><p>I'm also studying programming. I use AI to help build software, while contributing the business context, product decisions and testing that shape what we build.</p><a class="text-link about-link" href={profile.resume} target="_blank" rel="noopener">View my résumé <Arrow diagonal /></a></div>
+      <div class="about-copy"><p class="about-location">Based in Tucumán, Argentina. · Spanish and English.</p><p>I work in operations and automation, with experience in agency delivery, B2B lead generation and CRM. At Aramis, I coordinate content delivery and client communication, and lead two colleagues across marketing and design.</p><p>I work with the team to find where files get scattered, responsibilities become unclear or follow-ups stall. At Soluntech, that meant improving RFP intake and CRM handoffs. At Aramis, it led to a shared content workspace that all three of us now use.</p><p>I define requirements, design workflows and guide development with AI coding tools. I test the result and adjust it with the people using it, keeping business needs and day-to-day use at the center of each decision.</p><a class="text-link about-link" href={profile.resume} target="_blank" rel="noopener">View my résumé <Arrow diagonal /></a></div>
     </div>
   </section>
   <section class="experience container" aria-labelledby="experience-title">
     <div class="experience-label"><p class="section-label"><span>05</span> Background</p><h2 id="experience-title">The path<br /><em>so far.</em></h2></div>
     <div class="experience-list">
-      <article class="experience-row"><div class="experience-date">2025 — Present</div><div><h3>Automation & Operations Lead</h3><p class="experience-company">Aramis Agency · Self-employed</p><p>Coordinate content delivery and client communication, improve production workflows, and build internal tools with the team.</p></div></article>
-      <article id="soluntech" class="experience-row"><div class="experience-date">2024</div><div><h3>Marketing Assistant</h3><p class="experience-company">Soluntech · B2B software agency</p><p>I took ownership of an RFP channel focused on Bubble and Knack opportunities. I replaced screenshot-based records with a searchable Google Sheet and manually added prospects with confirmed meetings to Pipedrive. Improvements to intake and follow-up helped monthly discovery calls grow from 0–2 to 10–12.</p><p class="experience-supporting">Also worked on customer discovery and outbound campaigns alongside product and engineering teams.</p></div></article>
+      <article class="experience-row"><div class="experience-date">2025 — Present</div><div><h3>Automation & Operations Lead</h3><p class="experience-company">Aramis Agency · Self-employed</p><p>Lead two colleagues across marketing and design, coordinate content delivery and client communication, and improve production workflows. Define and validate internal tools through AI-assisted development.</p></div></article>
+      <article id="soluntech" class="experience-row"><div class="experience-date">2024</div><div><h3>Marketing Assistant</h3><p class="experience-company">Soluntech · B2B software agency</p><p>I took ownership of an RFP channel focused on Bubble and Knack opportunities. I replaced screenshot-based records with a searchable Google Sheet and organized the handoff of confirmed meetings into Pipedrive. Improvements to intake and follow-up helped monthly discovery calls grow from 0–2 to 10–12.</p><p class="experience-supporting">Also worked on customer discovery and outbound campaigns alongside product and engineering teams.</p></div></article>
       <article class="experience-row"><div class="experience-date">Education</div><div><h3>Marketing + Programming</h3><p class="experience-company">UNSTA · Universidad Nacional de Tucumán</p><p>Bachelor's degree in Marketing, graduated in 2023. University programming degree in progress.</p></div></article>
     </div>
   </section>
   <section id="contact" class="contact-section container" aria-labelledby="contact-title">
-    <div class="contact-top"><p class="section-label"><span>06</span> Let's talk</p><span class="contact-caption">Have a role or a problem in mind?</span></div>
+    <div class="contact-top"><p class="section-label"><span>06</span> Let's talk</p><span class="contact-caption">Open to operations and automation roles.</span></div>
     <h2 id="contact-title">Let's make work<br /><em>a little easier.</em></h2>
     <div class="contact-bottom"><a class="email-link" href={`mailto:${profile.email}`}>{profile.email}<Arrow diagonal /></a><div class="social-links"><a href={profile.linkedin} target="_blank" rel="noopener">LinkedIn <Arrow diagonal /></a><a href={profile.github} target="_blank" rel="noopener">GitHub <Arrow diagonal /></a><a href={profile.resume} target="_blank" rel="noopener">Résumé <Arrow diagonal /></a></div></div>
   </section>

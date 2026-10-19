@@ -13,6 +13,15 @@
 - The 2026-10-15 CV revision leads with 2+ years of operations/automation experience and explicitly includes leadership of two colleagues in marketing and design. The dermatology campaign remains client-attributed, with no spend or cost-per-conversation claim.
 - About portrait: Miguel's photo attached on 2026-10-14, edited at his request with built-in imagegen for framing/background. Source asset and complete edit prompt documented in PORTRAIT.md.
 
+## Positioning — 2026-10-19
+
+- Miguel requested clearer wording oriented toward roles supported by his existing experience. Lead with **Operations & Automation**, supported by marketing/sales workflows, CRM organization, team coordination and internal tools.
+- This is an editorial positioning decision, not a claim that a particular title guarantees interviews or has a measured higher hiring probability. Marketing Operations, Business Operations and workflow implementation roles remain relevant searches; evaluate their actual platform and engineering requirements individually.
+- Reviewed first-party role descriptions for [AI Automation Specialist](https://jobs.ashbyhq.com/Scale%20Army%20Careers/1a866617-9ac3-4332-9121-c33a811011de) and [AI Implementation Specialist](https://jobs.ashbyhq.com/Scale%20Army%20Careers/3c458132-4fa7-487b-9390-2be14d0c1ea6). They connect process mapping, CRM/workflow improvements, practical automation and user adoption. These references guide vocabulary; they are not a claim Miguel meets every requirement or that the positions remain open.
+- Product Operations and Forward Deployed roles vary. Reviewed examples at [Moab](https://jobs.ashbyhq.com/moab/5faca633-05c3-4948-8f23-5f9fba1c045b) and [Tread](https://jobs.ashbyhq.com/tread/4c347015-3b0c-4dc1-bbf1-60d21d72bea9) include product analytics or production software engineering requirements. Do not adopt those titles as Miguel's established professional identity.
+- Keep his programming degree in Background. The main biography should explain his current work, requirements, workflow decisions, AI-assisted implementation and validation with users. Do not claim independent production engineering skills, delivery speed multipliers, measured time savings or new project adoption.
+- Soluntech's CRM handoff remains manual. Describing its organization without the adverb does not imply that it was automated.
+
 ## Selected business outcomes — update from 2026-10-07
 
 - Selection revised at Miguel's request on 2026-10-18: feature only the Soluntech RFP improvement and Gestor's team adoption. The dermatology campaign remains background evidence and in the approved CV; it is no longer a home-page highlight. Miguel has no RFP screenshots to supply, so do not imply a separate illustrated case study. The redundant home-to-background RFP link has been removed. Gestor's headline emphasizes adoption by the whole current team, with the three-person count retained in supporting copy.

@@ -1,5 +1,13 @@
 # Release checks — 2026-10-06
 
+## Operations and automation positioning — 2026-10-19
+
+- Home, biography, title, description and social preview now lead with Operations & Automation. Supporting copy names marketing/sales workflows, CRM organization, requirements, team coordination and user validation.
+- Programming education remains in Background. Project statuses, personal technical skills and measured/qualitative claim boundaries are preserved; no new performance or engineering claims were added.
+- `npm run verify` passed: zero errors, warnings or hints; four static pages built. `git diff --check` passed.
+- Reviewed the production preview at 1280px and 320px: readable introductory copy and biography, no horizontal overflow, existing résumé link and all home anchor targets present. Browser recorded no warnings/errors. The regenerated 1200 × 630 social preview was visually inspected.
+- Publication verification pending.
+
 ## Outcome paragraph readability — 2026-10-18
 
 - Outcome descriptions now use a maximum width of 48ch, 13px body text and `text-wrap: pretty`; the existing card grid and all copy remain intact.

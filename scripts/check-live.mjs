@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 
 const origin = process.env.SITE_URL || 'https://miguel-carretero-portfolio.miguel-carretero.workers.dev';
 const routes = [
-  { path: '/', title: 'Miguel Carretero — Product, operations &amp; AI' },
+  { path: '/', title: 'Miguel Carretero — Operations &amp; Automation' },
   { path: '/projects/gestor-aramis/', title: 'Gestor Aramis — Miguel Carretero' },
   { path: '/projects/editorial-cockpit/', title: 'Editorial Cockpit — Miguel Carretero' },
 ];
