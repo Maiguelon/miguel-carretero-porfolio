@@ -11,6 +11,8 @@ role: Product definition, workflow design & validation
 context: Aramis Agency · Internal V1
 stack: [React, TypeScript, Supabase, Google Drive, Cloudflare, Resend]
 cover: /images/gestor-pending.jpg
+coverWidth: 1264
+coverHeight: 1070
 coverAlt: Gestor Aramis management view showing pending content, deadlines, status and next actions using fictional demo data.
 coverCaption: Management view with fictional demo data. The internal V1 is deployed and used by the team; access requires a team account.
 theme: olive

@@ -3,14 +3,16 @@ title: Editorial Cockpit
 subtitle: AI workflows · Human review
 summary: A structured editorial workflow where AI proposes plans and drafts, and a person reviews the decisions before they are applied.
 published: true
-order: 2
-number: '02'
+order: 3
+number: '03'
 status: Functional MVP
 category: AI-assisted editorial workflow
 role: Workflow, data model, agent design & iterative testing
 context: Personal project · Also called Cabina
 stack: [Next.js, TypeScript, Prisma, PostgreSQL, OpenAI]
 cover: /images/editorial-cockpit.jpg
+coverWidth: 1265
+coverHeight: 712
 coverAlt: Public Editorial Cockpit demo showing editorial periods and pieces awaiting review.
 coverCaption: Screenshot of the public demo. It uses deterministic stub providers; clicking through the demo does not make live AI calls.
 theme: clay

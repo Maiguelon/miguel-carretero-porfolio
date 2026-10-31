@@ -6,6 +6,7 @@
 .case-status { display: flex; align-items: center; gap: 6px; font-size: 10px; }
 .case-status > span { height: 5px; width: 5px; border-radius: 50%; background: var(--olive); }
 .theme-clay .case-status > span { background: var(--clay); }
+.theme-slate .case-status > span { background: var(--slate); }
 .case-header h1 { font-family: var(--serif); font-size: clamp(52px, 6.5vw, 85px); line-height: 1.08; letter-spacing: -.02em; margin-block: 17px; }
 .case-summary { font-size: 18px; line-height: 1.6; color: var(--muted); max-width: 725px; }
 .case-actions { display: flex; gap: 28px; align-items: center; flex-wrap: wrap; margin-top: 28px; }
@@ -13,6 +14,7 @@
 .case-cover { margin-block: 0; }
 .case-image-wrap { background: var(--olive-soft); border-radius: 4px; padding: 40px 70px 0; max-height: 610px; overflow: hidden; }
 .theme-clay .case-image-wrap { background: var(--clay-soft); }
+.theme-slate .case-image-wrap { background: var(--slate-soft); }
 .case-image-wrap img { width: 100%; border-radius: 5px 5px 0 0; box-shadow: 0 0 20px #1d25171c; }
 .case-cover figcaption { display: flex; justify-content: space-between; gap: 30px; margin-top: 14px; color: var(--muted); font-size: 10px; }
 .case-cover figcaption a { display: flex; align-items: center; gap: 6px; white-space: nowrap; }
@@ -51,6 +53,7 @@
 .case-prose .workflow { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; margin-block: 25px; }
 .case-prose .workflow li { padding: 9px 12px; background: var(--olive-soft); color: var(--olive); border-radius: 3px; font-size: 12px; margin: 0; }
 .theme-clay .case-prose .workflow li { background: var(--clay-soft); color: #7b4936; }
+.theme-slate .case-prose .workflow li { background: var(--slate-soft); color: var(--slate); }
 .next-project { border-top: 1px solid var(--line); padding-block: 32px 40px; }
 .next-project > .eyebrow { font-size: 9px; color: var(--muted); }
 .next-project > a { display: flex; align-items: center; justify-content: space-between; font-family: var(--serif); font-size: 48px; margin-top: 15px; }

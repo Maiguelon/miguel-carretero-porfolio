@@ -50,7 +50,7 @@ const projects = (await getCollection('projects', ({ data }) => data.published))
   </section>
   <section id="work" class="work-section container" aria-labelledby="work-title">
     <div class="section-topline"><p class="section-label"><span>02</span> Selected work</p><span class="eyebrow">Built, tested, iterated</span></div>
-    <div class="section-heading"><h2 id="work-title">Small teams.<br /><em>Real workflows.</em></h2><p>An internal workspace used by our team, and an AI workflow prototype with human review. Each case explains the problem, my decisions and the result.</p></div>
+    <div class="section-heading"><h2 id="work-title">Small teams.<br /><em>Real workflows.</em></h2><p>Content operations, CRM implementation and AI-assisted planning. Three cases showing the problem, my decisions and what I verified.</p></div>
     <div class="project-grid">{projects.map((project) => <ProjectCard project={project} />)}</div>
     <p class="work-footnote">Product interfaces are in Spanish. Case studies are in English.</p>
   </section>

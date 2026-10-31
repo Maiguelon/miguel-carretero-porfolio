@@ -1,5 +1,15 @@
 # Release checks — 2026-10-06
 
+## LeadOps case integration — 2026-10-31
+
+- Reviewed LeadOps source `a4b9c51`, source documentation and screenshots. All 96 source checks passed; the offline fictional demo confirmed returning-contact reuse, duplicate suppression and refused consent without provider effects. No new connected inquiry, CRM write, email or AI call was triggered by this review.
+- Added `/projects/aramis-leadops/` as a Connected MVP after Gestor and before Cockpit. The case distinguishes published capture, local processing, real-service validation with fictional data and lack of measured commercial outcomes.
+- Public assets are exact copies of the reviewed empty Tally form and fictional Resend card. The email card is not labelled as a native HubSpot card. The real agency intake is not exposed as a testing sandbox.
+- Home copy, card layout, social preview, project numbering, next-case navigation and live checks now cover three cases. Image dimensions are explicit in the content schema, rather than inferred from a theme.
+- `npm run verify`: zero type/content errors, warnings or hints; five HTML pages built. `git diff --check` passed. Generated HTML checks found no missing local routes, anchors or assets; each image has alternative text. Confirmed card order, all next-case targets, correct screenshot dimensions and byte copies, four sitemap entries and no submission form/client script on the new case. Proof: ignored `work/leadops-integration-checks-2026-10-31.json`.
+- The regenerated social preview was visually inspected. Local browser use is disabled in Work settings; fresh rendered page/mobile/overflow checks were unavailable and are not reported as passed.
+- Publication verification pending.
+
 ## Operations and automation positioning — 2026-10-19
 
 - Home, biography, title, description and social preview now lead with Operations & Automation. Supporting copy names marketing/sales workflows, CRM organization, requirements, team coordination and user validation.

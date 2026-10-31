@@ -9,12 +9,15 @@
   <text x="68" y="288" fill="#252b25" font-family="Georgia,serif" font-size="81" letter-spacing="-3">Tools for the way</text>
   <text x="68" y="390" fill="#30432f" font-family="Georgia,serif" font-style="italic" font-size="81" letter-spacing="-3">people work.</text>
   <text x="68" y="467" fill="#62695e" font-family="Arial,sans-serif" font-size="20">Clearer processes. Better CRM handoffs. Useful internal tools.</text>
-  <rect x="876" y="223" width="256" height="223" rx="4" fill="#e5e9dc"/>
-  <text x="903" y="264" fill="#52634e" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">SELECTED WORK</text>
-  <text x="903" y="312" fill="#252b25" font-family="Georgia,serif" font-size="26">Gestor Aramis</text>
-  <text x="903" y="339" fill="#62695e" font-family="Arial,sans-serif" font-size="13">Content operations · In use</text>
-  <path d="M902 359H1104" stroke="#cbd3c0"/>
-  <text x="903" y="391" fill="#252b25" font-family="Georgia,serif" font-size="25">Editorial Cockpit</text>
-  <text x="903" y="418" fill="#62695e" font-family="Arial,sans-serif" font-size="13">AI workflows · Functional MVP</text>
+  <rect x="876" y="217" width="256" height="290" rx="4" fill="#e5e9dc"/>
+  <text x="903" y="253" fill="#52634e" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">SELECTED WORK</text>
+  <text x="903" y="296" fill="#252b25" font-family="Georgia,serif" font-size="26">Gestor Aramis</text>
+  <text x="903" y="319" fill="#62695e" font-family="Arial,sans-serif" font-size="13">Content operations · In use</text>
+  <path d="M902 339H1104" stroke="#cbd3c0"/>
+  <text x="903" y="368" fill="#252b25" font-family="Georgia,serif" font-size="25">Aramis LeadOps</text>
+  <text x="903" y="392" fill="#62695e" font-family="Arial,sans-serif" font-size="13">CRM &amp; automation · Connected MVP</text>
+  <path d="M902 412H1104" stroke="#cbd3c0"/>
+  <text x="903" y="444" fill="#252b25" font-family="Georgia,serif" font-size="25">Editorial Cockpit</text>
+  <text x="903" y="468" fill="#62695e" font-family="Arial,sans-serif" font-size="13">AI workflows · Functional MVP</text>
   <text x="68" y="590" fill="#62695e" font-family="Arial,sans-serif" font-size="14">A business problem. A thoughtful decision. A tool people can use.</text>
 </svg>

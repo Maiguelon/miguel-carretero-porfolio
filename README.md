@@ -4,7 +4,7 @@ Personal portfolio focused on operations and automation: marketing and sales wor
 
 **Live site:** https://miguel-carretero-portfolio.miguel-carretero.workers.dev
 
-The first release is in English and features two projects: **Gestor Aramis**, an adopted internal tool, and **Editorial Cockpit**, a functional AI workflow project. Spanish content and additional cases can be added later. Personal photography will follow the first release.
+The portfolio is in English and features three projects: **Gestor Aramis**, an adopted internal tool; **Aramis LeadOps**, a connected CRM/automation MVP with published capture and local processing; and **Editorial Cockpit**, a functional AI workflow project. Each case explains the contribution, validation and current limits. Spanish content and additional cases can be added later.
 
 ## Working plan
 

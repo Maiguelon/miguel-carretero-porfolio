@@ -13,7 +13,7 @@ Help potential employers and collaborators understand Miguel's experience, inspe
 - Add LeadOps after verifying its current integrations, evidence and operating limits.
 - Downloadable English CV, GitHub, LinkedIn and direct email contact.
 - Accurate project status and authorship; outcomes must match the available evidence.
-- Prepare the project content model for LeadOps and the scheduling bot without publishing empty cases.
+- Keep the project content model ready for additional cases, including the scheduling bot, without publishing empty cases.
 - Astro, TypeScript, custom CSS and Markdown content; static hosting on Cloudflare.
 - Personal photos can be added later. The first release must look complete without them.
 - Verify each meaningful chunk before making a local commit.
@@ -42,12 +42,12 @@ Help potential employers and collaborators understand Miguel's experience, inspe
 | 14a | Clarify operations and automation positioning | Home, biography and social preview name a clear function; contribution and experience remain accurate; production build and responsive review pass | Complete |
 | 14b | Publish positioning update | Updated public home, metadata and social preview verified on the existing Worker | Complete |
 | 15a | Review LeadOps for publication | Inspect current source, validation, screenshots and claim boundaries; define the case scope | Complete |
-| 15b | Integrate the LeadOps case | English case, reviewed assets, three-project home, navigation and metadata; production checks pass | In progress |
+| 15b | Integrate the LeadOps case | English case, reviewed assets, three-project home, navigation and metadata; production checks pass | Complete |
 | 15c | Publish and verify LeadOps | Existing Worker serves the new case and assets; route, sitemap and download checks pass | Pending |
 
 ## Content structure
 
-Home at `/`, cases at `/projects/gestor-aramis/` and `/projects/editorial-cockpit/`.
+Home at `/`, cases at `/projects/gestor-aramis/`, `/projects/aramis-leadops/` and `/projects/editorial-cockpit/`.
 
 Project content has a slug, title, summary, publication flag, project status, role, stack, image and optional repository/demo/walkthrough links. The case body holds the narrative. Project status and publication status are separate: future cases can remain unpublished until they tell a useful, substantiated story.
 
@@ -63,7 +63,7 @@ Project content has a slug, title, summary, publication flag, project status, ro
 ## Decisions
 
 - Use supplied CV content as background; current project status comes from the conversation and project documentation.
-- Present Gestor first because it has real adoption. Present Cockpit as a functional project, not an adopted agency system.
+- Present Gestor first because it has real adoption, followed by LeadOps as a connected CRM/automation MVP. Present Cockpit as a functional project, not an adopted agency system.
 - Use fictional demo screenshots from Gestor. Use an inspected public demo or a clearly labelled explanatory diagram for Cockpit.
 - Contact uses direct email; a form service is unnecessary for the initial scope.
 - Publication will use Cloudflare static assets. Domain and authenticated hosting setup are release concerns.
@@ -72,6 +72,7 @@ Project content has a slug, title, summary, publication flag, project status, ro
 ## Progress log
 
 - 2026-10-31 — Chunk 15a: reviewed LeadOps at source commit a4b9c51, including the case draft, CRM mapping, consent/live operation, research limits, recovery, implementation and tests. Re-ran all 96 checks successfully and the offline fictional demo: two contacts, three notes/tasks/cards, duplicate submission stopped and consent refusal produced no effects. Reviewed the two committed screenshots; they show an empty form and an explicitly fictional contact. The source repository is public and has main at 6711cbb; the latest four local commits are not yet pushed. The public Aramis website and remote README return HTTP 200. LeadOps is ready for a written case as a connected MVP: published capture, real integration acceptance evidence, local processing, human review and no measured business uplift. Place it after Gestor and before Cockpit. Browser automation is disabled in Work settings for this turn; do not claim fresh visual browser checks.
+- 2026-10-31 — Chunk 15b: added the English LeadOps case and both reviewed screenshots, placed it second and renumbered Cockpit third. Home cards use three columns on wide screens, horizontal rows on tablet and stacked cards on mobile; labels can wrap. Cover dimensions are now explicit content data. Added a slate theme and refreshed the shared social preview to include all three projects. Type/content validation passed with zero errors, warnings or hints, and five HTML pages built. Checked every generated local link/anchor and image alternative, case navigation order, screenshot dimensions and exact copies, four-entry sitemap, and absence of a live submission form on the case. Visually inspected the regenerated social image. Browser rendering could not be checked because local browser use is disabled; no viewport or overflow claims are made. Evidence is under ignored work/leadops-integration-checks-2026-10-31.json.
 
 - 2026-10-19 — Chunk 14a: clarified the home position as Operations & Automation, with marketing/sales workflows, CRM organization and AI-assisted internal tools as supporting evidence. Revised the introduction, work summary, biography, process, Aramis experience and contact caption; kept the programming degree in Background. Updated page metadata, the social preview and the existing live title check. Type/content validation passed with zero errors, warnings or hints; four production pages built. Reviewed the production preview at 1280px and 320px, including the About section and social image: no horizontal overflow, missing home anchors or console warnings/errors. Project status, metrics and the approved CV remain unchanged.
 - 2026-10-19 — Chunk 14b: published to the existing Worker, version 18a9d9c8-15a6-4f90-8f2a-479e9ddc5be1. All existing live checks passed. Public home and social PNG match the production build byte for byte; verified the new role, CRM wording, leadership, retained education and outcome ranges. Browser confirmed the published introduction, loaded image and no horizontal overflow. Proof saved under ignored work/operations-positioning-publication-2026-10-19.json and work/operations-positioning-published-2026-10-19.png.

@@ -4,6 +4,7 @@ const origin = process.env.SITE_URL || 'https://miguel-carretero-portfolio.migue
 const routes = [
   { path: '/', title: 'Miguel Carretero — Operations &amp; Automation' },
   { path: '/projects/gestor-aramis/', title: 'Gestor Aramis — Miguel Carretero' },
+  { path: '/projects/aramis-leadops/', title: 'Aramis LeadOps — Miguel Carretero' },
   { path: '/projects/editorial-cockpit/', title: 'Editorial Cockpit — Miguel Carretero' },
 ];
 
@@ -23,6 +24,8 @@ for (const route of routes) {
 for (const asset of [
   { path: '/resume/miguel-carretero-cv-en.pdf', type: /application\/pdf/ },
   { path: '/social-card.png', type: /image\/png/ },
+  { path: '/images/leadops-review.png', type: /image\/png/ },
+  { path: '/images/leadops-plan.png', type: /image\/png/ },
 ]) {
   const response = await fetch(new URL(asset.path, origin), { method: 'HEAD', signal: AbortSignal.timeout(15000) });
   assert.equal(response.status, 200);

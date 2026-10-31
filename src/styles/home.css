@@ -42,27 +42,30 @@
 .section-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin-block: 30px 38px; }
 .section-heading h2 { font-family: var(--serif); font-size: 57px; line-height: 1.08; letter-spacing: -.02em; }
 .section-heading p { max-width: 330px; font-size: 13px; color: var(--muted); padding-bottom: 4px; }
-.project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
+.project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 26px; }
 .project-card { min-width: 0; }
-.project-cover { display: block; padding: 22px 26px 0; height: 333px; border-radius: 4px; overflow: hidden; position: relative; }
+.project-card-copy { min-width: 0; }
+.project-cover { display: block; padding: 22px 20px 0; height: 270px; border-radius: 4px; overflow: hidden; position: relative; }
 .theme-olive .project-cover { background: var(--olive-soft); }
 .theme-clay .project-cover { background: var(--clay-soft); }
+.theme-slate .project-cover { background: var(--slate-soft); }
 .cover-topline { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; color: #58614f; }
 .cover-topline .eyebrow { font-size: 9px; }
 .theme-clay .cover-topline { color: #7e5b4a; }
+.theme-slate .cover-topline { color: var(--slate); }
 .project-number { font-family: var(--serif); font-size: 25px; line-height: 1; }
 .screenshot-frame { border: 1px solid #23292322; border-radius: 5px 5px 0 0; overflow: hidden; box-shadow: 0 5px 24px #26311b12; transform: translateY(5px); transition: transform .35s; background: var(--paper); }
 .screenshot-frame img { width: 100%; }
 .project-cover:hover .screenshot-frame { transform: translateY(0); }
 .cover-arrow { position: absolute; bottom: 18px; right: 18px; background: var(--paper); border-radius: 50%; width: 35px; height: 35px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 10px #00000010; }
-.project-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-block: 21px 10px; }
+.project-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; margin-block: 21px 10px; }
 .project-heading h3 { font-family: var(--serif); font-size: 30px; line-height: 1.2; }
 .project-heading h3 a:hover { color: var(--clay); }
 .status { display: inline-flex; align-items: center; gap: 6px; font-size: 10px; color: var(--muted); white-space: nowrap; }
 .status > span { width: 5px; height: 5px; border-radius: 50%; background: var(--clay); }
 .status-live > span { background: var(--olive); }
-.project-card > p { color: var(--muted); font-size: 13px; max-width: 480px; }
-.project-card-bottom { margin-top: 19px; padding-top: 15px; border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 18px; font-size: 10px; color: var(--muted); }
+.project-card-copy > p { color: var(--muted); font-size: 13px; max-width: 480px; }
+.project-card-bottom { margin-top: 19px; padding-top: 15px; border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px 18px; font-size: 10px; color: var(--muted); }
 .project-card-bottom a { color: var(--ink); font-size: 11px; white-space: nowrap; }
 .project-card-bottom svg { width: 15px; }
 .work-footnote { margin-top: 28px; color: var(--muted); font-size: 10px; }
@@ -111,6 +114,11 @@
 .social-links svg { width: 15px; }
 @media (max-width: 1100px) { .hero { gap: 45px; } .hero h1 { font-size: 68px; } .hero-actions { gap: 18px; } .hero-actions .text-link { font-size: 11px; } .hero-location { font-size: 9px; flex-wrap: wrap; } .note-title { font-size: 34px; } .discipline-strip { gap: 18px; font-size: 10px; } .discipline-strip .strip-end { display: none; } .project-cover { height: 285px; padding-inline: 20px; } .about-inner { gap: 60px; } .experience { gap: 55px; } }
 @media (max-width: 900px) { .hero { grid-template-columns: 1.2fr 1fr; gap: 30px; padding-block: 70px 55px; } .hero h1 { font-size: 55px; } .hero .lede { font-size: 14px; } .hero-actions { flex-wrap: wrap; } .hero-location { margin-top: 28px; } .field-note { padding: 18px 18px 0; } .note-heading .eyebrow { font-size: 8px; } .note-title { font-size: 28px; } .note-visual { height: 140px; } .note-footer { font-size: 9px; } .outcomes-section .section-topline { align-items: flex-start; flex-direction: column; gap: 20px; } .outcomes-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; } .outcome-value { font-size: 42px; } .outcome-comparison { gap: 12px; } .section-heading h2 { font-size: 48px; } .section-heading p { max-width: 270px; font-size: 12px; } .project-grid { gap: 24px; } .project-cover { height: 250px; } .project-heading { flex-wrap: wrap; gap: 6px; } .project-heading h3 { font-size: 27px; } .project-card-bottom { flex-wrap: wrap; gap: 8px; } .about-inner { gap: 45px; } .about-intro h2 { font-size: 40px; } .about-copy > p { font-size: 13px; } .experience { grid-template-columns: .8fr 1.9fr; gap: 40px; } .experience-row { gap: 20px; grid-template-columns: 85px 1fr; } .contact-bottom { flex-wrap: wrap; } }
+@media (min-width: 601px) and (max-width: 1100px) {
+  .project-grid { grid-template-columns: 1fr; gap: 34px; }
+  .project-card { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 28px; align-items: center; }
+  .project-heading { margin-top: 0; }
+}
 @media (max-width: 600px) {
   .hero { grid-template-columns: 1fr; gap: 48px; padding-block: 52px 40px; }
   .hero-kicker { font-size: 9px; letter-spacing: .1em; }
@@ -140,9 +148,9 @@
   .section-heading p { margin-top: 20px; max-width: 340px; font-size: 13px; }
   .project-grid { grid-template-columns: 1fr; gap: 40px; }
   .project-cover { height: 290px; padding: 20px 22px 0; }
-  .project-heading { flex-wrap: nowrap; }
+  .project-heading { flex-wrap: wrap; }
   .project-heading h3 { font-size: 30px; }
-  .project-card-bottom { flex-wrap: nowrap; }
+  .project-card-bottom { flex-wrap: wrap; }
   .approach { padding-bottom: 55px; }
   .approach .section-topline { align-items: flex-start; flex-direction: column; gap: 20px; }
   .approach-grid { grid-template-columns: 1fr; gap: 24px; margin-top: 24px; }
