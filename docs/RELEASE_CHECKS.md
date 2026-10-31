@@ -8,7 +8,8 @@
 - Home copy, card layout, social preview, project numbering, next-case navigation and live checks now cover three cases. Image dimensions are explicit in the content schema, rather than inferred from a theme.
 - `npm run verify`: zero type/content errors, warnings or hints; five HTML pages built. `git diff --check` passed. Generated HTML checks found no missing local routes, anchors or assets; each image has alternative text. Confirmed card order, all next-case targets, correct screenshot dimensions and byte copies, four sitemap entries and no submission form/client script on the new case. Proof: ignored `work/leadops-integration-checks-2026-10-31.json`.
 - The regenerated social preview was visually inspected. Local browser use is disabled in Work settings; fresh rendered page/mobile/overflow checks were unavailable and are not reported as passed.
-- Publication verification pending.
+- Published Cloudflare version `eadb44c9-9232-4934-be12-2262509b7577`. Expanded `npm run check:live` passed for all four public routes, CV, social image, both LeadOps screenshots, sitemap, robots and custom 404.
+- Public home, all three cases, screenshot assets, social preview and sitemap match the verified build byte for byte. Linked CSS/font/portrait build assets used by the home and new case return HTTP 200. Proof: ignored `work/leadops-publication-2026-10-31.json`. Fresh browser rendering remains unverified because of the Work setting.
 
 ## Operations and automation positioning — 2026-10-19
 
