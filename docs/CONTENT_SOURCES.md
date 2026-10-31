@@ -63,9 +63,22 @@
 
 ## Future projects
 
-- LeadOps: offline demo and implementation in progress; live CRM/OpenAI pilot not verified.
 - Scheduling bot: pilot integration work; not presented as a completed live booking system.
 - Additional cases stay unpublished in the first release.
+
+## Aramis LeadOps — reviewed 2026-10-31
+
+- Source: `C:/Users/Usuario/Desktop/Aramis/aramis-lead-intelligence`, commit `a4b9c51`, especially `README.md`, `docs/16-portfolio-case-study.md`, CRM mapping, connected-demo, research and live-inquiry guides, plus implementation and tests.
+- Public repository: https://github.com/Maiguelon/aramis-lead-intelligence. Remote main is `6711cbb`; four newer local documentation/form-preview commits remain unpushed. The remote README is accessible over HTTP. Link the repository, but do not assume the latest local screenshots or documentation are already on GitHub.
+- Status: working connected MVP, with the published Aramis website/Tally capture enabled for consented inquiries. Processing runs in local n8n while the computer is on, polling every five minutes and handling one pending completed submission per execution. It is not a hosted always-on worker, a self-service portfolio sandbox or an adopted high-volume pipeline.
+- Contribution documented in the source: process design, requirements, CRM field/ownership mapping, consent and data-quality rules, bounded AI outputs, handoff/recovery design and validation through AI-assisted implementation. Do not imply independent manual engineering expertise.
+- Objects: HubSpot contacts, associated notes and assigned review tasks. New contacts receive initial ownership/lifecycle; existing owner and lifecycle remain unchanged. Attribution, consent and qualification primarily live in notes. No automatic company association, deal creation, full sales pipeline or native HubSpot reporting.
+- Two bounded AI steps prepare research/brief and service-fit recommendations. Business fit, identity uncertainty and evidence are separate. Missing budget or an inaccessible profile is uncertainty, not evidence of poor fit. AI failures leave an explicit manual-review fallback; humans choose the next action. No prospect outreach, negotiation or campaign enrollment is automated.
+- Completed-event checks prevent duplicate replay. Returning contacts can create a new inquiry activity. Uncertain writes stop for reconciliation. Production execution is serialized; do not claim distributed exactly-once delivery or general concurrent safety.
+- Connected acceptance evidence in the source covers fictional Tally inquiries through real HubSpot, both AI steps and internal Resend cards, contact reuse, distinct activities and replay checks. Two pilot emails were independently observed as Delivered; API acceptance on other runs is not proof of inbox delivery or readership. This review did not trigger new external writes or emails.
+- Re-ran `npm run check`: 96 tests passed. Re-ran the offline demo using simulated providers: valid/plan inquiries and returning contact complete, duplicate produces no extra effects, refused consent is rejected. These are validation counts, not business outcomes.
+- Screenshots visually reviewed from `docs/images/plan-inquiry.png` (1265 × 712, empty public plan form) and `docs/images/internal-review-card.png` (1280 × 720, explicitly fictional contact in Resend). They contain no real inquiry details, credentials or private portal IDs. Captions must distinguish the internal email card from a native HubSpot card.
+- Use the case, screenshots and repository for review. Do not label the agency's real inquiry form as an interactive portfolio demo or ask visitors to submit tests into the live workflow. Do not add lead volume, conversion, revenue, ROI or time-saving claims.
 
 ## References
 
