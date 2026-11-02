@@ -6,7 +6,8 @@
 - `npm run verify`: zero errors, warnings or hints; five HTML pages built. The final mobile-spacing adjustment was rebuilt successfully. `git diff --check` passed.
 - Browser inspected desktop About/home and case headers, the 320px home and all three cases, plus LeadOps at 640px. No horizontal overflow. Briefs precede the images; desktop summaries are visible in the initial viewport. Followed the workflow action and opened/closed the technical detail using Enter. No console warnings/errors were recorded.
 - Generated-page checks found no missing local routes, anchors or assets, and verified image alternative text. The outcome ranges appear once on home. The approved CV SHA-256 is unchanged. Compared visible main text (closed disclosures excluded): home 679→496, Gestor 842→422, LeadOps 970→458 and Cockpit 731→411 words. Proof: ignored `work/editorial-cleanup-checks-2026-11-02.json`.
-- Publication verification pending.
+- Published Cloudflare version `8a820d09-cfe8-41bf-8e66-292ed569d3f7`; all existing live route, asset, CV, sitemap, robots and custom 404 checks passed. Public home and all three cases match the verified build byte for byte, and their linked CSS returns HTTP 200.
+- A fresh public browser tab confirms LeadOps's brief in the first desktop viewport before the cover, without horizontal overflow. Proof: ignored `work/editorial-cleanup-publication-2026-11-02.json` and `work/case-brief-published-2026-11-02.png`.
 
 ## LeadOps case integration — 2026-10-31
 
