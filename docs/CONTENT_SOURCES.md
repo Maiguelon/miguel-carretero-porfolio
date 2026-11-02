@@ -80,6 +80,13 @@
 - Screenshots visually reviewed from `docs/images/plan-inquiry.png` (1265 × 712, empty public plan form) and `docs/images/internal-review-card.png` (1280 × 720, explicitly fictional contact in Resend). They contain no real inquiry details, credentials or private portal IDs. Captions must distinguish the internal email card from a native HubSpot card.
 - Use the case, screenshots and repository for review. Do not label the agency's real inquiry form as an interactive portfolio demo or ask visitors to submit tests into the live workflow. Do not add lead volume, conversion, revenue, ROI or time-saving claims.
 
+## Reading hierarchy — 2026-11-02
+
+- Miguel authorized the editorial cleanup after reviewing independent recruiting/portfolio feedback. Prioritize the problem, personal contribution and result/status before a large image; keep implementation and validation details accessible in disclosures.
+- Merge the repeated About/method explanations. Keep Soluntech's ranges and process change together in the outcome card, with only role context in Background. The 14-account scope comes from the approved CV; no new dates, attribution claims or measurements were added.
+- Preserve the adopted/prototype distinctions and authorship boundaries in the briefs and stories. LeadOps remains published capture with local processing, tested using fictional inquiries. Cockpit remains a personal MVP without agency adoption, with simulated AI in its public demo.
+- Prefer a public case workflow over the Gestor team-login destination as the main action. Existing screenshots, product integrations and résumé content are unchanged. HubSpot screenshots and CV revision are a later scope requested by Miguel.
+
 ## References
 
 - Alberto Giunta: https://albertogiunta.com/portfolio — concrete contribution and product context.

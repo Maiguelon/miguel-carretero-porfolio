@@ -1,5 +1,13 @@
 # Release checks — 2026-10-06
 
+## Reading hierarchy and editorial cleanup — 2026-11-02
+
+- Home combines About/method, removes generic filler and concentrates the Soluntech result. All three cases now show problem/contribution/result before the cover; stories are shorter and technical detail remains in native disclosures. Main actions distinguish public workflows/demos from team login.
+- `npm run verify`: zero errors, warnings or hints; five HTML pages built. The final mobile-spacing adjustment was rebuilt successfully. `git diff --check` passed.
+- Browser inspected desktop About/home and case headers, the 320px home and all three cases, plus LeadOps at 640px. No horizontal overflow. Briefs precede the images; desktop summaries are visible in the initial viewport. Followed the workflow action and opened/closed the technical detail using Enter. No console warnings/errors were recorded.
+- Generated-page checks found no missing local routes, anchors or assets, and verified image alternative text. The outcome ranges appear once on home. The approved CV SHA-256 is unchanged. Compared visible main text (closed disclosures excluded): home 679→496, Gestor 842→422, LeadOps 970→458 and Cockpit 731→411 words. Proof: ignored `work/editorial-cleanup-checks-2026-11-02.json`.
+- Publication verification pending.
+
 ## LeadOps case integration — 2026-10-31
 
 - Reviewed LeadOps source `a4b9c51`, source documentation and screenshots. All 96 source checks passed; the offline fictional demo confirmed returning-contact reuse, duplicate suppression and refused consent without provider effects. No new connected inquiry, CRM write, email or AI call was triggered by this review.

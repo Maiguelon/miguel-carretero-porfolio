@@ -25,8 +25,9 @@ const projects = defineCollection({
     repository: z.url().optional(),
     demo: z.url().optional(),
     demoLabel: z.string().optional(),
+    demoRequiresLogin: z.boolean().default(false),
     walkthrough: z.url().optional(),
-    highlights: z.array(z.object({ label: z.string(), value: z.string() })),
+    brief: z.object({ problem: z.string(), contribution: z.string(), outcome: z.string() }),
   }),
 });
 
