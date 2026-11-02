@@ -1,5 +1,10 @@
 # Release checks — 2026-10-06
 
+## Aramis background tense — 2026-11-02
+
+- Changed “Coordinated” to “Coordinate” so the current Aramis role consistently uses present tense: Coordinate / Lead / improve.
+- Production build passed. Published version `5063311b-dabb-4945-aa29-1587c32de17a`; the public home returns HTTP 200, matches the build exactly and contains the corrected paragraph.
+
 ## Reading hierarchy and editorial cleanup — 2026-11-02
 
 - Home combines About/method, removes generic filler and concentrates the Soluntech result. All three cases now show problem/contribution/result before the cover; stories are shorter and technical detail remains in native disclosures. Main actions distinguish public workflows/demos from team login.
