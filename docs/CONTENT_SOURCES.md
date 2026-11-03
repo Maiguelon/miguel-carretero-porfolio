@@ -40,6 +40,7 @@
 - Source: `Aramis/GestorAramis/README.md`, current project documentation and Miguel's explanations in the conversation.
 - Repository: https://github.com/Maiguelon/GestorAramis
 - Hosted application: https://gestor-aramis.pages.dev/ — team login required, not a public interactive demo.
+- Public portfolio demo supplied by Miguel on 2026-11-03: https://gestor-aramis-demo.pages.dev/. Verified in the browser: opens directly to an English internal-workspace demo without login, with a Try the workflow guide and a changes-stay-in-browser notice. Source README and demo handoff describe a separate static deployment without live Drive, Supabase, Worker API or outgoing email. The sample workflow uses example dates/statuses and includes selected authorized real media as well as fictional samples; do not describe all demo media as fictional. The primary portfolio action now opens this demo.
 - Screenshots: `docs/images/pending-work.jpg` and `docs/images/design-production.jpg` in the source project. The README explicitly says they use fictional demo data.
 - Status: internal V1 complete and fully adopted by the current three-person team: two people in marketing and one in design, confirmed by Miguel on 2026-10-07.
 - Miguel's contribution: product definition, focused workflow, priorities, decisions based on colleague feedback, iterative validation; AI-assisted implementation.

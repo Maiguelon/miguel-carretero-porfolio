@@ -51,7 +51,7 @@ const projects = (await getCollection('projects', ({ data }) => data.published))
     <div class="section-topline"><p class="section-label"><span>02</span> Selected work</p><span class="eyebrow">Built, tested, iterated</span></div>
     <div class="section-heading"><h2 id="work-title">Small teams.<br /><em>Real workflows.</em></h2><p>Three cases in content operations, CRM and AI-assisted planning. Each opens with the problem, my contribution and its current result.</p></div>
     <div class="project-grid">{projects.map((project) => <ProjectCard project={project} />)}</div>
-    <p class="work-footnote">Product interfaces are in Spanish. Case studies are in English.</p>
+    <p class="work-footnote">Case studies are in English. Screenshots retain their original interface language.</p>
   </section>
   <section id="about" class="about-section" aria-labelledby="about-title">
     <div class="container about-inner">

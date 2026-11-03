@@ -1,5 +1,11 @@
 # Release checks — 2026-10-06
 
+## Public Gestor demo link — 2026-11-03
+
+- The Gestor case now prioritizes “Try the public demo” at `https://gestor-aramis-demo.pages.dev/`. The browser verified an English workspace without login, a guided-workflow entry and a notice that changes stay in the visitor's browser. Case text explains the isolated demo and disabled live Drive/email connections; the home note no longer implies every interface is Spanish.
+- Type/content validation passed with zero errors, warnings or hints; production build passed. Published version `77b70178-0cad-4f18-89a9-c0dea960ef46`; all existing live checks passed. Public home and case match the build exactly, and the browser confirms the primary button URL.
+- Evidence: ignored `work/gestor-demo-link-publication-2026-11-03.json` and `work/gestor-public-demo-link-2026-11-03.png`. Source application and provider settings were read-only.
+
 ## Aramis background tense — 2026-11-02
 
 - Changed “Coordinated” to “Coordinate” so the current Aramis role consistently uses present tense: Coordinate / Lead / improve.

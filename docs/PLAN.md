@@ -74,6 +74,8 @@ Project content has a slug, title, summary, publication flag, project status, ro
 
 ## Progress log
 
+- 2026-11-03 — Linked Miguel's new English Gestor public demo as the primary case action, replacing the team-login link. Browser verified no-account access, the local-changes banner and guided-workflow entry. Updated case scope/language notes and the home screenshot-language note. Type/content check and production build passed; all live checks passed after publishing version 77b70178-0cad-4f18-89a9-c0dea960ef46. Public home/case match the build, and the browser confirms the new button destination. No source application, team deployment, media or provider settings were changed. Evidence: ignored work/gestor-demo-link-publication-2026-11-03.json and work/gestor-public-demo-link-2026-11-03.png.
+
 - 2026-11-02 — Corrected the Aramis Background paragraph to present tense at Miguel's request. Production build passed; published version 5063311b-dabb-4945-aa29-1587c32de17a. Public home matches the build and the corrected paragraph was verified.
 
 - 2026-11-02 — Chunk 16a: shortened the introduction, removed the generic discipline strip and merged About/How I work into one explanation of the working method. Soluntech's call ranges and process change are concentrated in the outcome card; Background now adds concise role context. Restored the 14-account scope already documented in the approved CV. Production check/build passed with zero diagnostics and five HTML pages. Browser inspected the desktop About section and narrow mobile home; no horizontal overflow or missing home anchor targets at 1280px/320px. Case summaries and screenshots are the next chunk; HubSpot assets and CV changes remain outside this edit.
