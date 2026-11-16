@@ -51,6 +51,7 @@
 .case-prose figcaption { color: var(--muted); font-size: 10px; margin-top: 10px; }
 .case-prose details { padding: 18px 22px; border: 1px solid var(--line); border-radius: 3px; margin-block: 30px; }
 .case-prose summary { font-size: 13px; color: var(--ink); font-weight: 500; cursor: pointer; }
+.case-prose details > figure { margin-block: 16px 0; }
 .case-prose details p { margin-block: 14px 0; font-size: 13px; }
 .case-prose .workflow { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; margin-block: 25px; }
 .case-prose .workflow li { padding: 9px 12px; background: var(--olive-soft); color: var(--olive); border-radius: 3px; font-size: 12px; margin: 0; }

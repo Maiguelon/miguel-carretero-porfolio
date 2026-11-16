@@ -81,6 +81,11 @@
 - Screenshots visually reviewed from `docs/images/plan-inquiry.png` (1265 × 712, empty public plan form) and `docs/images/internal-review-card.png` (1280 × 720, explicitly fictional contact in Resend). They contain no real inquiry details, credentials or private portal IDs. Captions must distinguish the internal email card from a native HubSpot card.
 - Use the case, screenshots and repository for review. Do not label the agency's real inquiry form as an interactive portfolio demo or ask visitors to submit tests into the live workflow. Do not add lead volume, conversion, revenue, ROI or time-saving claims.
 
+## LeadOps HubSpot evidence — 2026-11-16
+
+- One fictional interior design inquiry submitted through the published contact form reached HubSpot after the local worker restarted. Verified the resulting note and assigned review task directly on the test contact.
+- The two public crops capture those real HubSpot activities with submission identifiers obscured. The cover email remains evidence from an earlier fictional test.
+
 ## Reading hierarchy — 2026-11-02
 
 - Miguel authorized the editorial cleanup after reviewing independent recruiting/portfolio feedback. Prioritize the problem, personal contribution and result/status before a large image; keep implementation and validation details accessible in disclosures.

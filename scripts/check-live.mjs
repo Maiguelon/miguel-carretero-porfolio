@@ -26,6 +26,8 @@ for (const asset of [
   { path: '/social-card.png', type: /image\/png/ },
   { path: '/images/leadops-review.png', type: /image\/png/ },
   { path: '/images/leadops-plan.png', type: /image\/png/ },
+  { path: '/images/leadops-hubspot-task.jpg', type: /image\/jpeg/ },
+  { path: '/images/leadops-hubspot-note.jpg', type: /image\/jpeg/ },
 ]) {
   const response = await fetch(new URL(asset.path, origin), { method: 'HEAD', signal: AbortSignal.timeout(15000) });
   assert.equal(response.status, 200);
