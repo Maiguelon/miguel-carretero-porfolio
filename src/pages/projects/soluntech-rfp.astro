@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Arrow from '../../components/Arrow.astro';
+import '../../styles/case.css';
+
+const title = 'Turning RFP replies into discovery calls';
+const workflow = [
+  ['Choose a template', 'Pick a relevant case study from the work we could show.'],
+  ['Personalize the proposal', 'Write an opening paragraph that speaks to the specific request.'],
+  ['Track it in Google Sheets', 'Keep a searchable record so the original request is easy to find when someone replies.'],
+  ['Hand off to Pipedrive', 'Add the prospect to the CRM once they book a discovery call.'],
+];
+---
+<BaseLayout title={`${title} — Miguel Carretero`} description="How I improved proposal replies and follow-up for Soluntech’s RFP channel.">
+  <article class="case-page">
+    <header class="case-header container">
+      <a class="text-link case-back" href="/#outcomes-title"><Arrow />Selected outcomes</a>
+      <div class="case-kicker"><p class="eyebrow">Soluntech · RFP channel · 2024</p></div>
+      <h1>{title}</h1>
+      <p class="result"><span>0–2</span><Arrow /><span>10–12</span></p>
+      <p class="case-summary">Monthly discovery calls before and after I changed how we wrote proposals and followed up on replies.</p>
+    </header>
+    <div class="container story">
+      <div class="case-prose">
+        <h2>Where the process broke down</h2>
+        <p>We replied to every request for proposal (RFP) with AI-generated copy. With several requests coming in each day, replies were hard to personalize. If a prospect wrote back, finding the original request meant searching through unnamed screenshots.</p>
+        <h2>What I changed</h2>
+        <p>I saw that competing providers used embedded videos to show their work. I couldn’t embed video in our replies, so I prepared templates around relevant case studies and wrote a tailored opening paragraph for each proposal.</p>
+        <p>I replaced the screenshots with a searchable Google Sheet. That gave me a place to track proposals and find the original request when someone replied. Pipedrive was for prospects who had booked a discovery call.</p>
+        <h2 id="the-workflow">The workflow</h2>
+        <ol class="workflow" role="list">
+          {workflow.map(([step, detail], index) => (
+            <li>
+              <div><strong>{step}</strong><p>{detail}</p></div>
+              {index < workflow.length - 1 && <Arrow class="flow-arrow" />}
+            </li>
+          ))}
+        </ol>
+      </div>
+    </div>
+  </article>
+</BaseLayout>
+<style>
+  .result { display: flex; align-items: center; gap: 20px; font: clamp(48px, 9vw, 76px)/1 var(--serif); color: var(--olive); margin-block: 25px 10px; }
+  .result svg { color: var(--clay); }
+  .story { border-top: 1px solid var(--line); padding-block: 40px 75px; }
+  .story > div { max-width: 740px; }
+  .workflow { list-style: none; padding: 0; max-width: 550px; }
+  .workflow li { display: grid; justify-items: start; gap: 8px; padding: 0; margin-bottom: 8px; }
+  .workflow li > div { width: 100%; border: 1px solid var(--line); border-radius: 4px; background: var(--olive-soft); padding: 12px 16px; }
+  .workflow p { margin: 4px 0 0; }
+  .workflow .flow-arrow { transform: rotate(90deg); margin-inline-start: 16px; color: var(--clay); }
+</style>

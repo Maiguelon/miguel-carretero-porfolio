@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 const origin = process.env.SITE_URL || 'https://miguel-carretero-portfolio.miguel-carretero.workers.dev';
 const routes = [
   { path: '/', title: 'Miguel Carretero — Operations &amp; Automation' },
+  { path: '/projects/soluntech-rfp/', title: 'Turning RFP replies into discovery calls — Miguel Carretero' },
   { path: '/projects/gestor-aramis/', title: 'Gestor Aramis — Miguel Carretero' },
   { path: '/projects/aramis-leadops/', title: 'Aramis LeadOps — Miguel Carretero' },
   { path: '/projects/editorial-cockpit/', title: 'Editorial Cockpit — Miguel Carretero' },
