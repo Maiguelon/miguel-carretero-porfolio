@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 
-const origin = process.env.SITE_URL || 'https://miguel-carretero-portfolio.miguel-carretero.workers.dev';
+const origin = process.env.SITE_URL || 'https://carreteromiguel.com';
 const routes = [
   { path: '/', title: 'Miguel Carretero — Operations &amp; Automation' },
   { path: '/projects/soluntech-rfp/', title: 'Turning RFP replies into discovery calls — Miguel Carretero' },
