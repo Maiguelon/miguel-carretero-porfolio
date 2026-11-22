@@ -4,6 +4,6 @@ export const profile = {
   location: 'Tucumán, Argentina',
   email: 'miguelcarreteroangel@gmail.com',
   github: 'https://github.com/Maiguelon',
-  linkedin: 'https://www.linkedin.com/in/miguel-carretero-',
-  resume: '/resume/miguel-carretero-cv-en.pdf?v=d6594ea432a9',
+  linkedin: 'https://www.linkedin.com/in/carretero-miguel',
+  resume: '/resume/miguel-carretero-cv-en.pdf?v=b6fd06f58c62',
 };
