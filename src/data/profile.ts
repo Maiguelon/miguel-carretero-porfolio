@@ -5,5 +5,5 @@ export const profile = {
   email: 'miguelcarreteroangel@gmail.com',
   github: 'https://github.com/Maiguelon',
   linkedin: 'https://www.linkedin.com/in/carretero-miguel',
-  resume: '/resume/miguel-carretero-cv-en.pdf?v=8bb1f95502b6',
+  resume: '/resume/miguel-carretero-cv-en.pdf?v=9dfa0dcc7ac2',
 };
